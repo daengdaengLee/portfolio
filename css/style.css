@@ -1,0 +1,29 @@
+/*************
+*** HEADER ***
+*************/
+
+.container-fluid header {
+    height: 700px;
+    
+    background-image: url("../img/header_bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+}
+
+.container-fluid header h1 {
+    position: relative;
+    
+    top: 150px;
+    
+    color: white;
+}
+
+/*************
+*** HEADER ***
+*************/
+
+main h2 {
+    padding-top: 70px;
+}
