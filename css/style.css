@@ -2,7 +2,7 @@
 *** HEADER ***
 *************/
 
-/*.container-fluid header {
+.container-fluid header {
     height: 700px;
 
     background-image: url("../img/header_bg.jpg");
@@ -18,17 +18,17 @@
     top: 150px;
 
     color: white;
-}*/
+}
 
 /*************
 *** HEADER ***
 *************/
 
-/*main h2 {
+main h2 {
     padding-top: 70px;
-}*/
+}
 
-* {
+/** {
     margin: 0;
     padding: 0;
 }
@@ -42,4 +42,4 @@ html, body, .container-fluid, header {
 header {
     background-color: gray;
     color: white;
-}
+}*/
