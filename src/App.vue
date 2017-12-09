@@ -16,6 +16,7 @@ export default {
 </script>
 
 <style>
+/* google font */
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i');
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
