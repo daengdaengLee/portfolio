@@ -48,6 +48,7 @@ export default {
   background-color: darkgray;
   color: darkgray;
   border-color: darkgray;
+  cursor: pointer;
 }
 .Icons li .label {
   display: none;
