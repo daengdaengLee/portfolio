@@ -1,25 +1,22 @@
 <template>
   <div id="app">
-    <portfolio-header></portfolio-header>
-    <router-view/>
-    <portfolio-footer></portfolio-footer>
+    <portfolio></portfolio>
   </div>
 </template>
 
 <script>
-import PortfolioHeader from './components/PortfolioHeader';
-import PortfolioFooter from './components/PortfolioFooter';
+import Portfolio from './components/Portfolio';
 
 export default {
   name: 'app',
   components: {
-    PortfolioHeader,
-    PortfolioFooter,
+    Portfolio,
   },
 };
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i');
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -52,6 +49,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 ol, ul {
 	list-style: none;
