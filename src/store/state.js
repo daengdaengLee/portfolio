@@ -1,3 +1,5 @@
+const imgUrl = require('../assets/avatarimage.jpg');
+
 export default {
   snsContacts: {
     githubAddress: 'https://github.com/daengdaengLee',
@@ -5,5 +7,5 @@ export default {
     codepenAddress: 'https://codepen.io/daengdaengLee/',
     mailAddress: 'gunho1020@gmail.com',
   },
-  imgUrl: require('../assets/avatarimage.jpg'), // eslint-disable-line global-require
+  imgUrl,
 };
