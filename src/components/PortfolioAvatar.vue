@@ -25,7 +25,7 @@ export default {
   background-color: rgba(0, 0, 0, 0.05);
   width: 12rem;
   height: 12rem;
-  margin-bottom: 1.5rem;
+  margin: 1.5rem;
 }
 .PortfolioAvatar img {
   border-radius: 100%;
