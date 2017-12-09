@@ -6,7 +6,8 @@
       :facebookAddress="snsContacts.facebookAddress"
       :codepenAddress="snsContacts.codepenAddress"
       :mailAddress="snsContacts.mailAddress"
-    ></portfolio-contacts>
+    >
+    </portfolio-contacts>
   </header>
 </template>
 
