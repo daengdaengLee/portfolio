@@ -1,9 +1,9 @@
 <template>
   <ul class="Icons">
-    <li><a :href="githubAddress" class="icon-github"><span class="label">Github</span></a></li>
-    <li><a :href="facebookAddress" class="icon-facebook"><span class="label">Facebook</span></a></li>
-    <li><a :href="codepenAddress" class="icon-codepen"><span class="label">Codepen</span></a></li>
-    <li><a :href="mailAddress" class="icon-mail"><span class="label">Email</span></a></li>
+    <li><a :href="githubAddress" class="icon-github" target="_blank"><span class="label">Github</span></a></li>
+    <li><a :href="facebookAddress" class="icon-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+    <li><a :href="codepenAddress" class="icon-codepen" target="_blank"><span class="label">Codepen</span></a></li>
+    <li><a :href="'mailto: '+mailAddress" class="icon-mail" target="_blank"><span class="label">Email</span></a></li>
   </ul>
 </template>
 
