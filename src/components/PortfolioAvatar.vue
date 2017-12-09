@@ -1,6 +1,6 @@
 <template>
   <span class="PortfolioAvatar">
-    <img src="../assets/avatarimage.jpg" alt="프로필 이미지">
+    <img :src="imgUrl" alt="프로필 이미지">
   </span>
 </template>
 

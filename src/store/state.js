@@ -5,5 +5,5 @@ export default {
     codepenAddress: 'https://codepen.io/daengdaengLee/',
     mailAddress: 'gunho1020@gmail.com',
   },
-  imgUrl: '',
+  imgUrl: require('../assets/avatarimage.jpg'), // eslint-disable-line global-require
 };
