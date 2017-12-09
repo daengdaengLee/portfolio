@@ -37,7 +37,7 @@ export default {
 }
 .PortfolioFooter p {
   text-align: center;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.2rem;
 }
 .PortfolioFooter p a {
