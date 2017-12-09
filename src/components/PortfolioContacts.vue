@@ -34,6 +34,7 @@ export default {
 <style scoped>
 .Icons {
   margin: 2rem 0 2rem 0;
+  text-align: center;
 }
 .Icons li {
   display: inline-block;
