@@ -32,6 +32,9 @@ export default {
 </script>
 
 <style scoped>
+.Icons {
+  margin: 2rem 0 2rem 0;
+}
 .Icons li {
   display: inline-block;
   border: 1px solid darkgray;
