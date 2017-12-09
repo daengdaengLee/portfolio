@@ -1,6 +1,6 @@
 <template>
   <header class="PortfolioHeader">
-    <portfolio-avatar></portfolio-avatar>
+    <portfolio-avatar :img-url="imgUrl"></portfolio-avatar>
     <h1>
       Hi, I'm <strong>Kunho Lee</strong>.<br>
       Are you looking for a <strong>web developer</strong>? PICK ME!
@@ -22,7 +22,7 @@ import PortfolioAvatar from './PortfolioAvatar';
 
 export default {
   name: 'PortfolioHeader',
-  computed: mapState(['snsContacts']),
+  computed: mapState(['snsContacts', 'imgUrl']),
   components: {
     PortfolioContacts,
     PortfolioAvatar,
