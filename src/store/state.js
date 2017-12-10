@@ -19,11 +19,11 @@ export default {
     [
       {
         id: 'thumb-1',
-        linkUrl: 'https://www.google.com',
+        linkUrl: 'https://daengdaenglee.github.io/calculator_with_vuejs/',
         imgUrl: thumbImgUrl1,
-        altMessage: 'thumbnail image 1',
-        headingText: 'Heading Text 1',
-        descripttionText: 'Description Text 1',
+        altMessage: 'web calculator thumbnail image',
+        headingText: 'Web Calculator',
+        descripttionText: 'html, css, javascript, vue.js',
       },
       {
         id: 'thumb-2',
