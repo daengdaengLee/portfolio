@@ -1,6 +1,7 @@
 <template>
   <div class="PortfolioThumbnails">
     <portfolio-thumbnail-column
+      class="PortfolioThumbnailColumn"
       v-for="(infos, index) in thumbnailsInfo"
       :key="index"
       :thumbnails-info="infos"
@@ -22,5 +23,11 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.PortfolioThumbnails {
+  display: flex;
+}
+.PortfolioThumbnails .PortfolioThumbnailColumn {
+  flex-grow: 1;
+}
 </style>

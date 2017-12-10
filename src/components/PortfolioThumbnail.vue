@@ -37,4 +37,7 @@ export default {
 </script>
 
 <style scoped>
+.PortfolioThumbnail article img {
+  width: 100%;
+}
 </style>
