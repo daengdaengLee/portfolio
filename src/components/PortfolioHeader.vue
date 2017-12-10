@@ -1,6 +1,6 @@
 <template>
   <header class="PortfolioHeader">
-    <portfolio-avatar :img-url="imgUrl"></portfolio-avatar>
+    <portfolio-avatar :img-url="avatarImgUrl"></portfolio-avatar>
     <h1>
       Hi, I'm <strong>Kunho Lee</strong>.<br>
       Are you looking for a <strong>web developer</strong>? PICK ME!
@@ -24,7 +24,7 @@ import PortfolioMenu from './PortfolioMenu';
 
 export default {
   name: 'PortfolioHeader',
-  computed: mapState(['snsContacts', 'imgUrl']),
+  computed: mapState(['snsContacts', 'avatarImgUrl']),
   components: {
     PortfolioContacts,
     PortfolioAvatar,

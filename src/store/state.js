@@ -1,4 +1,4 @@
-const imgUrl = require('../assets/avatarimage.jpg');
+const avatarImgUrl = require('../assets/avatarimage.jpg');
 
 export default {
   snsContacts: {
@@ -7,5 +7,5 @@ export default {
     codepenAddress: 'https://codepen.io/daengdaengLee/',
     mailAddress: 'gunho1020@gmail.com',
   },
-  imgUrl,
+  avatarImgUrl,
 };
