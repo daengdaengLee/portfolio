@@ -2,16 +2,21 @@
   <div class="Portfolio">
     <portfolio-header></portfolio-header>
     <router-view/>
-    <portfolio-footer></portfolio-footer>
+    <portfolio-footer
+      :code-repo-url="footerInfo.codeRepo"
+    >
+    </portfolio-footer>
   </div>
 </template>
 
 <script>
+import { mapState } from 'vuex';
 import PortfolioHeader from './PortfolioHeader';
 import PortfolioFooter from './PortfolioFooter';
 
 export default {
   name: 'Portfolio',
+  computed: mapState(['footerInfo']),
   components: {
     PortfolioHeader,
     PortfolioFooter,
