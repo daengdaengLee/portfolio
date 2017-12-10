@@ -73,6 +73,6 @@ export default {
     ],
   ],
   footerInfo: {
-    codeRepo: 'https://github.com/daengdaengLee/daengdaenglee.github.io',
+    codeRepo: 'https://github.com/daengdaengLee/portfolio',
   },
 };
