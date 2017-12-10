@@ -1,0 +1,28 @@
+<template>
+  <section class="PortfolioProjects">
+    <h2 class="headingText">Projcets</h2>
+    <portfolio-thumbnails></portfolio-thumbnails>
+  </section>
+</template>
+
+<script>
+import PortfolioThumbnails from './PortfolioThumbnails';
+
+export default {
+  name: 'PortfolioProjects',
+  components: {
+    PortfolioThumbnails,
+  },
+};
+</script>
+
+<style scoped>
+.PortfolioProjects {
+  text-align: center;
+}
+.PortfolioProjects .headingText {
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 1rem 0 3rem 0;
+}
+</style>
