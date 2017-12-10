@@ -1,5 +1,5 @@
 <template>
-  <ul class="Icons">
+  <ul class="PortfolioContacts">
     <li><a :href="githubAddress" class="icon-github" target="_blank"><span class="label">Github</span></a></li>
     <li><a :href="facebookAddress" class="icon-facebook" target="_blank"><span class="label">Facebook</span></a></li>
     <li><a :href="codepenAddress" class="icon-codepen" target="_blank"><span class="label">Codepen</span></a></li>
@@ -32,33 +32,36 @@ export default {
 </script>
 
 <style scoped>
-.Icons {
+.PortfolioContacts {
   margin: 2rem 0 2rem 0;
   text-align: center;
 }
-.Icons li {
+.PortfolioContacts li {
   display: inline-block;
   border: 1px solid darkgray;
   border-radius: 100%;
   width: 2rem;
   height: 2rem;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
   margin-right: 0.7rem;
   margin-left:  0.7rem;
 }
-.Icons li:hover {
+.PortfolioContacts li:hover {
   background-color: darkgray;
-  color: darkgray;
-  border-color: darkgray;
   cursor: pointer;
 }
-.Icons li .label {
+.PortfolioContacts li .label {
   display: none;
 }
-.Icons li a {
+.PortfolioContacts li a {
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
   color: gray;
   text-decoration: none;
+}
+.PortfolioContacts li a:hover {
+  color: white;
 }
 </style>

@@ -12,6 +12,7 @@
       :mailAddress="snsContacts.mailAddress"
     >
     </portfolio-contacts>
+    <portfolio-menu></portfolio-menu>
   </header>
 </template>
 
@@ -19,6 +20,7 @@
 import { mapState } from 'vuex';
 import PortfolioContacts from './PortfolioContacts';
 import PortfolioAvatar from './PortfolioAvatar';
+import PortfolioMenu from './PortfolioMenu';
 
 export default {
   name: 'PortfolioHeader',
@@ -26,6 +28,7 @@ export default {
   components: {
     PortfolioContacts,
     PortfolioAvatar,
+    PortfolioMenu,
   },
 };
 </script>
