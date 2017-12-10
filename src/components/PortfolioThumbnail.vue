@@ -51,6 +51,7 @@ export default {
 .PortfolioThumbnail .ThumbnailArticle .ThumbnailImage {
   width: 100%;
   border-radius: 0.3rem;
+  border-bottom: 1px solid darkgray;
 }
 .PortfolioThumbnail .ThumbnailArticle .ThumbnailImage:hover {
   opacity: 0.7;
