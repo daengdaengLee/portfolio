@@ -4,6 +4,7 @@
     <router-view/>
     <portfolio-footer
       :code-repo-url="footerInfo.codeRepo"
+      :user-url="footerInfo.userUrl"
     >
     </portfolio-footer>
   </div>

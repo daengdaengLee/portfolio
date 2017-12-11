@@ -74,5 +74,6 @@ export default {
   ],
   footerInfo: {
     codeRepo: 'https://github.com/daengdaengLee/portfolio',
+    userUrl: 'https://daengdaenglee.github.io/portfolio',
   },
 };
