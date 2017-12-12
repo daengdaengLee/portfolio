@@ -20,25 +20,34 @@ export default {
 
 <style scoped>
 .PortfolioMenu {
+  width: 100%;
   margin: 2rem 0 2rem 0;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .PortfolioMenu li {
   box-sizing: border-box;
+  width: 20%;
+  margin: 0 1rem;
   display: inline-flex;
-  width: 7rem;
   height: 2rem;
   justify-content: center;
   align-items: center;
   border: 1px solid darkgray;
   border-radius: 0.2rem;
   color: gray;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 .PortfolioMenu li:hover {
   background-color: darkgray;
   cursor: pointer;
   color: white;
+}
+@media (min-width: 768px) {
+  .PortfolioMenu li {
+    width: 7rem;
+    font-size: 1.2rem;
+  }
 }
 </style>

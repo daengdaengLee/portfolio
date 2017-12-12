@@ -24,10 +24,12 @@ export default {
 </script>
 
 <style scoped>
-.PortfolioThumbnails {
-  display: flex;
-}
-.PortfolioThumbnails .PortfolioThumbnailColumn {
-  flex-grow: 1;
+@media (min-width: 768px) {
+  .PortfolioThumbnails {
+    display: flex;
+  }
+  .PortfolioThumbnails .PortfolioThumbnailColumn {
+    flex-grow: 1;
+  }
 }
 </style>
