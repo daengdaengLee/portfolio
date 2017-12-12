@@ -35,13 +35,17 @@ export default {
 
 <style scoped>
 .PortfolioHeader {
-  text-align: center;
+  width: 100%;
   padding: 2rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .PortfolioHeader h1 {
   font-size: 1.8rem;
   font-weight: 300;
-  margin-bottom: 3rem;
+  margin: 0 2rem 3rem 2rem;
   line-height: 2.3rem;
 }
 .PortfolioHeader h1 strong {

@@ -1,7 +1,7 @@
 <template>
   <footer class="PortfolioFooter">
     <p>
-      Coded by <a :href="userUrl" target="_blank">KunhoLee</a>.
+      Coded by <a :href="userUrl" target="_blank">KunhoLee</a>.<br>
       You can see the code from <a :href="codeRepoUrl" target="_blank">here</a>!
     </p>
   </footer>
