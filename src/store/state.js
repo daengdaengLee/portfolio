@@ -16,7 +16,7 @@ export default {
         imgUrl: 'https://user-images.githubusercontent.com/30795415/33804319-b2564816-dde5-11e7-8d4a-60fc12d68898.jpg',
         altMessage: 'web calculator thumbnail image',
         headingText: 'Web Calculator',
-        descripttionText: 'html, css, javascript, vue.js',
+        descripttionText: 'html, css, javascript, Vue.js, Vuex',
       },
       {
         id: 'thumb-2',
