@@ -20,11 +20,11 @@ export default {
       },
       {
         id: 'thumb-2',
-        linkUrl: 'https://www.google.com',
-        imgUrl: 'https://user-images.githubusercontent.com/30795415/33804322-c73d3500-dde5-11e7-9349-e821c9d76c40.jpg',
-        altMessage: 'thumbnail image 2',
-        headingText: 'Heading Text 2',
-        descripttionText: 'Description Text 2',
+        linkUrl: 'https://daengdaenglee.github.io/pomodoro_clock_vuejs',
+        imgUrl: 'https://user-images.githubusercontent.com/30795415/33947021-b0bd5caa-e066-11e7-809d-659e1eca5fd3.jpg',
+        altMessage: 'pomodoro clock thumbnail image',
+        headingText: 'Pomodoro Clock',
+        descripttionText: 'html, css, javascript, Vue.js, Vuex',
       },
     ],
     [
