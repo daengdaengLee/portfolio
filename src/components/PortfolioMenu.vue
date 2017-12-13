@@ -1,8 +1,8 @@
 <template>
   <ul class="PortfolioMenu">
-    <li @click="navigate('PortfolioProjects')">Projects</li>
-    <li @click="navigate('PortfolioProjects')">Career</li>
-    <li @click="navigate('PortfolioProjects')">Blog</li>
+    <li @click="navigate('PortfolioProjects', 'router')">Projects</li>
+    <li @click="navigate('PortfolioProjects', 'router')">Career</li>
+    <li @click="navigate('https://daengdaenglee.github.io', 'link')">Blog</li>
   </ul>
 </template>
 
@@ -10,9 +10,13 @@
 export default {
   name: 'PortfolioMenu',
   methods: {
-    navigate(routeName) {
-      const routeInfo = { name: routeName };
-      this.$router.push(routeInfo);
+    navigate(uri, type) {
+      if (type === 'router') {
+        const routeInfo = { name: uri };
+        this.$router.push(routeInfo);
+      } else if (type === 'link') {
+        window.open(uri, '_blank');
+      }
     },
   },
 };
@@ -21,14 +25,14 @@ export default {
 <style scoped>
 .PortfolioMenu {
   width: 100%;
-  margin: 2rem 0 2rem 0;
+  margin: 2rem;
   display: flex;
   justify-content: center;
 }
 .PortfolioMenu li {
   box-sizing: border-box;
-  width: 20%;
-  margin: 0 1rem;
+  width: 26%;
+  margin: 0 0.5rem;
   display: inline-flex;
   height: 2rem;
   justify-content: center;
