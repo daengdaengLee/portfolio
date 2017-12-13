@@ -21,14 +21,14 @@ export default {
 <style scoped>
 .PortfolioMenu {
   width: 100%;
-  margin: 2rem 0 2rem 0;
+  margin: 2rem;
   display: flex;
   justify-content: center;
 }
 .PortfolioMenu li {
   box-sizing: border-box;
-  width: 20%;
-  margin: 0 1rem;
+  width: 26%;
+  margin: 0 0.5rem;
   display: inline-flex;
   height: 2rem;
   justify-content: center;
