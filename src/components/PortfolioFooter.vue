@@ -1,25 +1,18 @@
 <template>
   <footer class="PortfolioFooter">
     <p>
-      Coded by <a :href="userUrl" target="_blank">KunhoLee</a>.<br>
-      You can see the code from <a :href="codeRepoUrl" target="_blank">here</a>!
+      Coded by <a :href="footerInfo.userUrl" target="_blank">KunhoLee</a>.<br>
+      You can see the code from <a :href="footerInfo.codeRepo" target="_blank">here</a>!
     </p>
   </footer>
 </template>
 
 <script>
+import { mapState } from 'vuex';
+
 export default {
   name: 'PortfolioFooter',
-  props: {
-    userUrl: {
-      type: String,
-      default() { return '#'; },
-    },
-    codeRepoUrl: {
-      type: String,
-      default() { return '#'; },
-    },
-  },
+  computed: mapState(['footerInfo']),
 };
 </script>
 

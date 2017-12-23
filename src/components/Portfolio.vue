@@ -2,11 +2,7 @@
   <div class="Portfolio">
     <portfolio-header></portfolio-header>
     <router-view/>
-    <portfolio-footer
-      :code-repo-url="footerInfo.codeRepo"
-      :user-url="footerInfo.userUrl"
-    >
-    </portfolio-footer>
+    <portfolio-footer></portfolio-footer>
   </div>
 </template>
 
