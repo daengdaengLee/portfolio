@@ -1,7 +1,7 @@
 <template>
   <ul class="PortfolioMenu">
     <li @click="navigate('PortfolioProjects', 'router')">Projects</li>
-    <li @click="navigate('PortfolioProjects', 'router')">Career</li>
+    <li @click="navigate('PortfolioCareers', 'router')">Career</li>
     <li @click="navigate('https://daengdaenglee.github.io', 'link')">Blog</li>
   </ul>
 </template>
