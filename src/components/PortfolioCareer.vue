@@ -1,6 +1,5 @@
 <template>
-  <section class="PortfolioCareer">
-    {{ content }}
+  <section class="PortfolioCareer" v-html="content">
   </section>
 </template>
 
@@ -25,5 +24,8 @@ export default {
   width: 80%;
   margin: 1rem 0;
   padding: 1rem;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 2.8rem;
 }
 </style>

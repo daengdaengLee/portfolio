@@ -1,5 +1,3 @@
-// const thumbImgUrl7 = require('../assets/thumbnails/07.jpg');
-
 export default {
   snsContacts: {
     githubAddress: 'https://github.com/daengdaengLee',
@@ -79,7 +77,7 @@ export default {
   careerInfo: [
     {
       id: 1,
-      content: 'test msg',
+      content: 'I hope to make my career with YOU!<br>Please <strong style="color: gray;">CONTACT ME</strong>!',
     },
   ],
 };
