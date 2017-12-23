@@ -26,6 +26,10 @@ export default {
 <style scoped>
 .PortfolioCareers {
   text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .PortfolioCareers .headingText {
   font-size: 2rem;
