@@ -23,5 +23,13 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.PortfolioCareers {
+  text-align: center;
+}
+.PortfolioCareers .headingText {
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 1rem 0 3rem 0;
+}
 </style>
