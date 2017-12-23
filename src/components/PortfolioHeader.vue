@@ -5,26 +5,18 @@
       Hi, I'm <strong>Kunho Lee</strong>.<br>
       Are you looking for a <strong>web developer</strong>? PICK ME!
     </h1>
-    <portfolio-contacts
-      :githubAddress="snsContacts.githubAddress"
-      :facebookAddress="snsContacts.facebookAddress"
-      :codepenAddress="snsContacts.codepenAddress"
-      :mailAddress="snsContacts.mailAddress"
-    >
-    </portfolio-contacts>
+    <portfolio-contacts></portfolio-contacts>
     <portfolio-menu></portfolio-menu>
   </header>
 </template>
 
 <script>
-import { mapState } from 'vuex';
 import PortfolioContacts from './PortfolioContacts';
 import PortfolioAvatar from './PortfolioAvatar';
 import PortfolioMenu from './PortfolioMenu';
 
 export default {
   name: 'PortfolioHeader',
-  computed: mapState(['snsContacts']),
   components: {
     PortfolioContacts,
     PortfolioAvatar,
