@@ -18,9 +18,12 @@ export default {
 
 <style scoped>
 .PortfolioCareer {
+  text-align: left;
   box-sizing: border-box;
   border: 1px solid darkgray;
   border-radius: 0.4rem;
   width: 80%;
+  margin: 1rem 0;
+  padding: 1rem;
 }
 </style>
