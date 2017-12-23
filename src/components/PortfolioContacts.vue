@@ -1,33 +1,18 @@
 <template>
   <ul class="PortfolioContacts">
-    <li><a :href="githubAddress" class="icon-github" target="_blank"><span class="label">Github</span></a></li>
-    <li><a :href="facebookAddress" class="icon-facebook" target="_blank"><span class="label">Facebook</span></a></li>
-    <li><a :href="codepenAddress" class="icon-codepen" target="_blank"><span class="label">Codepen</span></a></li>
-    <li><a :href="'mailto: '+mailAddress" class="icon-mail" target="_blank"><span class="label">Email</span></a></li>
+    <li><a :href="snsContacts.githubAddress" class="icon-github" target="_blank"><span class="label">Github</span></a></li>
+    <li><a :href="snsContacts.facebookAddress" class="icon-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+    <li><a :href="snsContacts.codepenAddress" class="icon-codepen" target="_blank"><span class="label">Codepen</span></a></li>
+    <li><a :href="'mailto: ' + snsContacts.mailAddress" class="icon-mail" target="_blank"><span class="label">Email</span></a></li>
   </ul>
 </template>
 
 <script>
+import { mapState } from 'vuex';
+
 export default {
   name: 'portfolio-contacts',
-  props: {
-    githubAddress: {
-      type: String,
-      default() { return '#'; },
-    },
-    facebookAddress: {
-      type: String,
-      default() { return '#'; },
-    },
-    codepenAddress: {
-      type: String,
-      default() { return '#'; },
-    },
-    mailAddress: {
-      type: String,
-      default() { return '#'; },
-    },
-  },
+  computed: mapState(['snsContacts']),
 };
 </script>
 

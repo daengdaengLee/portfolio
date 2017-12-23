@@ -1,18 +1,15 @@
 <template>
   <span class="PortfolioAvatar">
-    <img :src="imgUrl" alt="프로필 이미지">
+    <img :src="avatarImgUrl" alt="프로필 이미지">
   </span>
 </template>
 
 <script>
+import { mapState } from 'vuex';
+
 export default {
   name: 'PortfolioAvatar',
-  props: {
-    imgUrl: {
-      type: String,
-      default() { return '#'; },
-    },
-  },
+  computed: mapState(['avatarImgUrl']),
 };
 </script>
 

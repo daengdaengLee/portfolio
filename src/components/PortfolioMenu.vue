@@ -12,8 +12,7 @@ export default {
   methods: {
     navigate(uri, type) {
       if (type === 'router') {
-        const routeInfo = { name: uri };
-        this.$router.push(routeInfo);
+        this.$router.push({ name: uri });
       } else if (type === 'link') {
         window.open(uri, '_blank');
       }
