@@ -1,4 +1,5 @@
 export default {
+  currentView: 'PortfolioProjects',
   snsContacts: {
     githubAddress: 'https://github.com/daengdaengLee',
     facebookAddress: 'https://www.facebook.com/gunho.lee.566',
