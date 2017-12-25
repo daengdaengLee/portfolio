@@ -1,7 +1,9 @@
 <template>
   <div class="Portfolio">
     <portfolio-header></portfolio-header>
-    <router-view/>
+    <keep-alive>
+      <component :is="currentView"></component>
+    </keep-alive>
     <portfolio-footer></portfolio-footer>
   </div>
 </template>
@@ -13,7 +15,7 @@ import PortfolioFooter from './PortfolioFooter';
 
 export default {
   name: 'Portfolio',
-  computed: mapState(['footerInfo']),
+  computed: mapState(['footerInfo', 'currentView']),
   components: {
     PortfolioHeader,
     PortfolioFooter,
