@@ -6,14 +6,45 @@
   <meta name=viewport content="width=device-width,initial-scale=1">
   <link rel=stylesheet href=/portfolio/assets/fontello-6dc8e10c/css/fontello.css>
   <title>portfolio</title>
-  <link href=/portfolio/static/css/app.593c6366b84a90625b84830191d0f96c.css rel=stylesheet>
+  <link href=/portfolio/static/css/app.f0d1922a5a2ede11e9df19871c9a0613.css rel=stylesheet>
+  <!-- Start Single Page Apps for GitHub Pages -->
+  <script type="text/javascript">
+  // Single Page Apps for GitHub Pages
+  // https://github.com/rafrex/spa-github-pages
+  // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
+  // ----------------------------------------------------------------------
+  // This script checks to see if a redirect is present in the query string
+  // and converts it back into the correct url and adds it to the
+  // browser's history using window.history.replaceState(...),
+  // which won't cause the browser to attempt to load the new url.
+  // When the single page app is loaded further down in this file,
+  // the correct url will be waiting in the browser's history for
+  // the single page app to route accordingly.
+  (function(l) {
+    if (l.search) {
+      var q = {};
+      l.search.slice(1).split('&').forEach(function(v) {
+        var a = v.split('=');
+        q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
+      });
+      if (q.p !== undefined) {
+        window.history.replaceState(null, null,
+          l.pathname.slice(0, -1) + (q.p || '') +
+          (q.q ? ('?' + q.q) : '') +
+          l.hash
+        );
+      }
+    }
+  }(window.location))
+  </script>
+  <!-- End Single Page Apps for GitHub Pages -->
 </head>
 
 <body>
   <div id=app></div>
-  <script type=text/javascript src=/portfolio/static/js/manifest.b8a49cae7a25d5c4960b.js></script>
-  <script type=text/javascript src=/portfolio/static/js/vendor.b82162f39fa02115af8d.js></script>
-  <script type=text/javascript src=/portfolio/static/js/app.13610d7c25022307bc21.js></script>
+  <script type=text/javascript src=/portfolio/static/js/manifest.330ce1329a0dbaf9c111.js></script>
+  <script type=text/javascript src=/portfolio/static/js/vendor.c3deb490ad5533d09e2d.js></script>
+  <script type=text/javascript src=/portfolio/static/js/app.2d1d379574bc970a9097.js></script>
 </body>
 
 </html>
