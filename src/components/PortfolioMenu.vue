@@ -7,17 +7,24 @@
 </template>
 
 <script>
+import _ from 'lodash';
+import { mapActions } from 'vuex';
+import Constant from '../assets/js/Constant';
+
 export default {
   name: 'PortfolioMenu',
-  methods: {
-    navigate(uri, type) {
-      if (type === 'router') {
-        this.$router.push({ name: uri });
-      } else if (type === 'link') {
-        window.open(uri, '_blank');
-      }
+  methods: _.extend(
+    {
+      navigate(uri, type) {
+        if (type === 'router') {
+          this.changeView({ name: uri });
+        } else if (type === 'link') {
+          window.open(uri, '_blank');
+        }
+      },
     },
-  },
+    mapActions({ changeView: Constant('CHANGE_VIEW') }),
+  ),
 };
 </script>
 
