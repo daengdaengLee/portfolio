@@ -12,6 +12,8 @@
 import { mapState } from 'vuex';
 import PortfolioHeader from './PortfolioHeader';
 import PortfolioFooter from './PortfolioFooter';
+import PortfolioProjects from './PortfolioProjects';
+import PortfolioCareers from './PortfolioCareers';
 
 export default {
   name: 'Portfolio',
@@ -19,6 +21,8 @@ export default {
   components: {
     PortfolioHeader,
     PortfolioFooter,
+    PortfolioProjects,
+    PortfolioCareers,
   },
 };
 </script>
