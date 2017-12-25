@@ -1,9 +1,7 @@
 <template>
   <div class="Portfolio">
     <portfolio-header></portfolio-header>
-    <keep-alive>
-      <component :is="currentView"></component>
-    </keep-alive>
+    <router-view></router-view>
     <portfolio-footer></portfolio-footer>
   </div>
 </template>
@@ -12,17 +10,13 @@
 import { mapState } from 'vuex';
 import PortfolioHeader from './PortfolioHeader';
 import PortfolioFooter from './PortfolioFooter';
-import PortfolioProjects from './PortfolioProjects';
-import PortfolioCareers from './PortfolioCareers';
 
 export default {
   name: 'Portfolio',
-  computed: mapState(['footerInfo', 'currentView']),
+  computed: mapState(['footerInfo']),
   components: {
     PortfolioHeader,
     PortfolioFooter,
-    PortfolioProjects,
-    PortfolioCareers,
   },
 };
 </script>
