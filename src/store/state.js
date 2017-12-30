@@ -28,7 +28,7 @@ export default {
     [
       {
         id: 'thumb-3',
-        linkUrl: 'https://www.google.com',
+        linkUrl: 'https://daengdaenglee.github.io/movie_app_react/',
         imgUrl: 'https://user-images.githubusercontent.com/30795415/33804325-d055f294-dde5-11e7-8ac1-2b2a7254aa4c.jpg',
         altMessage: 'thumbnail image 3',
         headingText: 'Heading Text 3',
