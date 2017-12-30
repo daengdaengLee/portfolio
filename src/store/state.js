@@ -29,7 +29,7 @@ export default {
       {
         id: 'thumb-3',
         linkUrl: 'https://daengdaenglee.github.io/movie_app_react/',
-        imgUrl: 'https://user-images.githubusercontent.com/30795415/33804325-d055f294-dde5-11e7-8ac1-2b2a7254aa4c.jpg',
+        imgUrl: 'https://user-images.githubusercontent.com/30795415/34454215-0387aa94-edaa-11e7-9d71-4ff40c916517.jpg',
         altMessage: 'movie app react thumbnail image',
         headingText: 'Movie App React',
         descripttionText: 'html, css, javascript, React.js',
