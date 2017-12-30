@@ -32,7 +32,7 @@ export default {
         imgUrl: 'https://user-images.githubusercontent.com/30795415/33804325-d055f294-dde5-11e7-8ac1-2b2a7254aa4c.jpg',
         altMessage: 'movie app react thumbnail image',
         headingText: 'Movie App React',
-        descripttionText: 'Description Text 3',
+        descripttionText: 'html, css, javascript, React.js',
       },
       {
         id: 'thumb-4',
