@@ -1,9 +1,11 @@
 <template>
   <header class="PortfolioHeader">
     <portfolio-avatar></portfolio-avatar>
-    <h1>
-      Hi, I'm <strong>Kunho Lee</strong>.<br>
-      Are you looking for a <strong>web developer</strong>? PICK ME!
+    <h1 class="d-flex justify-content-center">
+      <span class="HeadingText">
+        Hi, I'm <strong class="HeadingStrong">Kunho Lee</strong>.<br>
+        Are you looking for a <strong class="HeadingStrong">web developer</strong>? PICK ME!
+      </span>
     </h1>
     <portfolio-contacts></portfolio-contacts>
     <portfolio-menu></portfolio-menu>
@@ -27,20 +29,14 @@ export default {
 
 <style scoped>
 .PortfolioHeader {
-  width: 100%;
   padding: 2rem 0 2rem 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
-.PortfolioHeader h1 {
+.PortfolioHeader .HeadingText {
   font-size: 1.8rem;
   font-weight: 300;
-  margin: 0 2rem 3rem 2rem;
   line-height: 2.3rem;
 }
-.PortfolioHeader h1 strong {
+.PortfolioHeader .HeadingText .HeadingStrong {
   color: gray;
 }
 </style>
