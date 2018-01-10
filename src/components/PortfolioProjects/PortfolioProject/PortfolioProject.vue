@@ -1,13 +1,13 @@
 <template>
   <section class="PortfolioProject mx-4 my-5 px-4">
-    <a :href="linkURL" target="_blank" class="ProjectLink row">
-      <div class="col-lg-5">
+    <a :href="linkURL" target="_blank" class="ProjectLink row h-100">
+      <div class="col-md-5">
         <portfolio-project-thumbnail
           :thumbnailURL="thumbnailURL"
           :altMessage="altMessage"
         />
       </div>
-      <div class="col-lg-7">
+      <div class="col-md-7">
         <portfolio-project-text
           :headingText="headingText"
           :simpleDesc="simpleDesc"
