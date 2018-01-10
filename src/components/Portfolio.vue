@@ -8,7 +8,7 @@
 
 <script>
 import { mapState } from 'vuex';
-import PortfolioHeader from './PortfolioHeader';
+import PortfolioHeader from './PortfolioHeader/PortfolioHeader';
 import PortfolioFooter from './PortfolioFooter';
 
 export default {

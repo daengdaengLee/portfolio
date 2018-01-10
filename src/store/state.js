@@ -1,9 +1,25 @@
 export default {
   snsContacts: {
-    githubAddress: 'https://github.com/daengdaengLee',
-    facebookAddress: 'https://www.facebook.com/gunho.lee.566',
-    codepenAddress: 'https://codepen.io/daengdaengLee/',
-    mailAddress: 'gunho1020@gmail.com',
+    github: {
+      address: 'https://github.com/daengdaengLee',
+      iconClass: 'icon-github',
+      iconText: 'Github',
+    },
+    facebook: {
+      address: 'https://www.facebook.com/gunho.lee.566',
+      iconClass: 'icon-facebook',
+      iconText: 'Facebook',
+    },
+    codepen: {
+      address: 'https://codepen.io/daengdaengLee/',
+      iconClass: 'icon-codepen',
+      iconText: 'Codepen',
+    },
+    mail: {
+      address: 'mailto: gunho1020@gmail.com',
+      iconClass: 'icon-mail',
+      iconText: 'Email',
+    },
   },
   avatarImgUrl: 'https://user-images.githubusercontent.com/30795415/33804339-036ace2a-dde6-11e7-9b25-84e6c60be326.jpg',
   thumbnailsInfo: [

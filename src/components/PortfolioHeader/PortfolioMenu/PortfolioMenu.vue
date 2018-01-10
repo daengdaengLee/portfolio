@@ -1,21 +1,21 @@
 <template>
-  <div class="PortfolioMenu row justify-content-center">
-    <div class="MenuItem col-3 col-md-2" @click="navigate('PortfolioProjects', 'router')">
+  <ul class="PortfolioMenu row justify-content-center">
+    <li class="MenuItem col-3 col-md-2" @click="navigate('PortfolioProjects', 'router')">
       <div class="MenuContent d-flex justify-content-center align-items-center">
         Projects
       </div>
-    </div>
-    <div class="MenuItem col-3 col-md-2" @click="navigate('PortfolioCareers', 'router')">
+    </li>
+    <li class="MenuItem col-3 col-md-2" @click="navigate('PortfolioCareers', 'router')">
       <div class="MenuContent d-flex justify-content-center align-items-center">
         Career
       </div>
-    </div>
-    <div class="MenuItem col-3 col-md-2" @click="navigate('https://daengdaenglee.github.io', 'link')">
+    </li>
+    <li class="MenuItem col-3 col-md-2" @click="navigate('https://daengdaenglee.github.io', 'link')">
       <div class="MenuContent d-flex justify-content-center align-items-center">
         Blog
       </div>
-    </div>
-  </div>
+    </li>
+  </ul>
 </template>
 
 <script>
