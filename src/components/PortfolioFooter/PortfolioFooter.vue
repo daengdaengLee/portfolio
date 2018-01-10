@@ -1,6 +1,6 @@
 <template>
-  <footer class="PortfolioFooter">
-    <p>
+  <footer class="PortfolioFooter pb-5">
+    <p class="FooterText text-center">
       Coded by <a :href="footerInfo.userUrl" target="_blank">KunhoLee</a>.<br>
       You can see the code from <a :href="footerInfo.codeRepo" target="_blank">here</a>!
     </p>
@@ -25,19 +25,15 @@ export default {
   border-top: 1px solid gray;
   margin-bottom: 3rem;
 }
-.PortfolioFooter {
-  padding-bottom: 3rem;
-}
-.PortfolioFooter p {
-  text-align: center;
+.PortfolioFooter .FooterText {
   font-weight: 300;
   font-size: 1.2rem;
 }
-.PortfolioFooter p a {
+.PortfolioFooter .FooterText a {
   text-decoration: none;
   color: gray;
 }
-.PortfolioFooter p a:hover {
+.PortfolioFooter .FooterText a:hover {
   color: darkgray;
 }
 </style>

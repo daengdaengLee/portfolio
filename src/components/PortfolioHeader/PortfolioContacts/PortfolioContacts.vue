@@ -1,7 +1,7 @@
 <template>
-  <div class="PortfolioContacts d-flex justify-content-center">
+  <div class="PortfolioContacts d-flex justify-content-center my-5">
     <ul class="list-inline">
-      <li class="list-inline-item IconMargin IconList">
+      <li class="list-inline-item mr-3 rounded-circle IconList">
         <PortfolioContactIcon
           :iconClass="snsContacts.github.iconClass"
           :iconText="snsContacts.github.iconText"
@@ -9,7 +9,7 @@
         >
         </PortfolioContactIcon>
       </li>
-      <li class="list-inline-item IconMargin IconList">
+      <li class="list-inline-item mr-3 rounded-circle IconList">
         <PortfolioContactIcon
           :iconClass="snsContacts.facebook.iconClass"
           :iconText="snsContacts.facebook.iconText"
@@ -17,7 +17,7 @@
         >
         </PortfolioContactIcon>
       </li>
-      <li class="list-inline-item IconMargin IconList">
+      <li class="list-inline-item mr-3 rounded-circle IconList">
         <PortfolioContactIcon
           :iconClass="snsContacts.codepen.iconClass"
           :iconText="snsContacts.codepen.iconText"
@@ -25,7 +25,7 @@
         >
         </PortfolioContactIcon>
       </li>
-      <li class="list-inline-item IconList">
+      <li class="list-inline-item rounded-circle IconList">
         <PortfolioContactIcon
           :iconClass="snsContacts.mail.iconClass"
           :iconText="snsContacts.mail.iconText"
@@ -51,15 +51,8 @@ export default {
 </script>
 
 <style scoped>
-.PortfolioContacts {
-  margin: 2rem 0 2rem 0;
-}
-.PortfolioContacts .IconMargin {
-  margin-right: 1rem;
-}
 .PortfolioContacts .IconList {
   border: 1px solid darkgray;
-  border-radius: 100%;
   width: 2rem;
   height: 2rem;
 }

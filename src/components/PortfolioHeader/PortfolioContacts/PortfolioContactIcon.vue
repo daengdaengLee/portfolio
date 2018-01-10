@@ -1,5 +1,10 @@
 <template>
-  <a :href="linkURL" :class="myStyle" target="_blank">
+  <a
+    :href="linkURL"
+    :class="myStyle"
+    target="_blank"
+    class="PortfolioContactIcon w-100 h-100 d-inline-flex justify-content-center align-items-center"
+  >
     <span class="label">{{iconText}}</span>
   </a>
 </template>
@@ -29,7 +34,6 @@ export default {
   beforeMount() {
     this.myStyle = {
       [this.iconClass]: true,
-      PortfolioContactIcon: true,
     };
   },
 };
@@ -38,11 +42,6 @@ export default {
 
 <style scoped>
 .PortfolioContactIcon {
-  display: inline-flex;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
   color: gray;
   text-decoration: none;
 }
