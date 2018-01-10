@@ -1,6 +1,6 @@
 <template>
   <section class="PortfolioAbout">
-    <h2 class="HeadingText">About</h2>
+    <h2 class="HeadingText text-center py-3">About</h2>
   </section>
 </template>
 
@@ -11,5 +11,8 @@ export default {
 </script>
 
 <style scoped>
-
+.PortfolioAbout .HeadingText {
+  font-size: 2rem;
+  font-weight: 300;
+}
 </style>
