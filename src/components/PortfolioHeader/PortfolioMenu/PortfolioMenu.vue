@@ -1,17 +1,17 @@
 <template>
-  <ul class="PortfolioMenu row justify-content-center">
-    <li class="MenuItem col-3 col-md-2" @click="navigate('PortfolioProjects', 'router')">
-      <div class="MenuContent d-flex justify-content-center align-items-center">
+  <ul class="PortfolioMenu row justify-content-center m-5">
+    <li class="MenuItem mx-2 col-3 col-md-2" @click="navigate('PortfolioProjects', 'router')">
+      <div class="h-100 d-flex justify-content-center align-items-center">
         Projects
       </div>
     </li>
-    <li class="MenuItem col-3 col-md-2" @click="navigate('PortfolioCareers', 'router')">
-      <div class="MenuContent d-flex justify-content-center align-items-center">
+    <li class="MenuItem mx-2 col-3 col-md-2" @click="navigate('PortfolioCareers', 'router')">
+      <div class="h-100 d-flex justify-content-center align-items-center">
         Career
       </div>
     </li>
-    <li class="MenuItem col-3 col-md-2" @click="navigate('https://daengdaenglee.github.io', 'link')">
-      <div class="MenuContent d-flex justify-content-center align-items-center">
+    <li class="MenuItem mx-2 col-3 col-md-2" @click="navigate('https://daengdaenglee.github.io', 'link')">
+      <div class="h-100 d-flex justify-content-center align-items-center">
         Blog
       </div>
     </li>
@@ -34,11 +34,7 @@ export default {
 </script>
 
 <style scoped>
-.PortfolioMenu {
-  margin: 2rem;
-}
 .PortfolioMenu .MenuItem {
-  margin: 0 0.5rem;
   height: 2rem;
   border: 1px solid darkgray;
   border-radius: 0.2rem;
@@ -50,8 +46,5 @@ export default {
   background-color: darkgray;
   cursor: pointer;
   color: white;
-}
-.PortfolioMenu .MenuItem .MenuContent {
-  height: 100%;
 }
 </style>
