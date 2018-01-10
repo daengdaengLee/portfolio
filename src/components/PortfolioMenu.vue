@@ -1,9 +1,21 @@
 <template>
-  <ul class="PortfolioMenu">
-    <li @click="navigate('PortfolioProjects', 'router')">Projects</li>
-    <li @click="navigate('PortfolioCareers', 'router')">Career</li>
-    <li @click="navigate('https://daengdaenglee.github.io', 'link')">Blog</li>
-  </ul>
+  <div class="PortfolioMenu row justify-content-center">
+    <div class="MenuItem col-3 col-md-2" @click="navigate('PortfolioProjects', 'router')">
+      <div class="MenuContent d-flex justify-content-center align-items-center">
+        Projects
+      </div>
+    </div>
+    <div class="MenuItem col-3 col-md-2" @click="navigate('PortfolioCareers', 'router')">
+      <div class="MenuContent d-flex justify-content-center align-items-center">
+        Career
+      </div>
+    </div>
+    <div class="MenuItem col-3 col-md-2" @click="navigate('https://daengdaenglee.github.io', 'link')">
+      <div class="MenuContent d-flex justify-content-center align-items-center">
+        Blog
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -23,34 +35,23 @@ export default {
 
 <style scoped>
 .PortfolioMenu {
-  width: 100%;
   margin: 2rem;
-  display: flex;
-  justify-content: center;
 }
-.PortfolioMenu li {
-  box-sizing: border-box;
-  width: 26%;
+.PortfolioMenu .MenuItem {
   margin: 0 0.5rem;
-  display: inline-flex;
   height: 2rem;
-  justify-content: center;
-  align-items: center;
   border: 1px solid darkgray;
   border-radius: 0.2rem;
   color: gray;
   font-size: 1rem;
   font-weight: 300;
 }
-.PortfolioMenu li:hover {
+.PortfolioMenu .MenuItem:hover {
   background-color: darkgray;
   cursor: pointer;
   color: white;
 }
-@media (min-width: 768px) {
-  .PortfolioMenu li {
-    width: 7rem;
-    font-size: 1.2rem;
-  }
+.PortfolioMenu .MenuItem .MenuContent {
+  height: 100%;
 }
 </style>
