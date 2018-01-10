@@ -1,5 +1,5 @@
 <template>
-  <section class="PortfolioProject">
+  <section class="PortfolioProject mx-4 my-5 px-4">
     <a :href="linkURL" target="_blank" class="ProjectLink row">
       <div class="col-lg-5">
         <portfolio-project-thumbnail
@@ -39,9 +39,6 @@ export default {
 
 <style scoped>
 .PortfolioProject {
-  margin: 2rem;
-  padding: 0 2rem;
-  width: 500px;
   box-shadow: 0 8px 38px rgba(133, 133, 133, 0.3), 0 5px 12px rgba(133, 133, 133,0.22);
 }
 .PortfolioProject:hover {
