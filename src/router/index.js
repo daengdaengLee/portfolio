@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import PortfolioProjects from '@/components/PortfolioProjects';
+import PortfolioProjects from '@/components/PortfolioProjects/PortfolioProjects';
 import PortfolioCareers from '@/components/PortfolioCareers';
 
 Vue.use(Router);
