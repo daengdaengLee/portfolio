@@ -1,7 +1,9 @@
 <template>
-  <span class="PortfolioAvatar">
-    <img :src="avatarImgUrl" alt="프로필 이미지">
-  </span>
+  <div class="PortfolioAvatar d-flex justify-content-center">
+    <span class="AvatarImage">
+      <img :src="avatarImgUrl" alt="프로필 이미지">
+    </span>
+  </div>
 </template>
 
 <script>
@@ -14,8 +16,7 @@ export default {
 </script>
 
 <style scoped>
-.PortfolioAvatar {
-  display: inline-block;
+.PortfolioAvatar .AvatarImage {
   padding: 0.5rem;
   border: 1px solid gray;
   border-radius: 100%;
@@ -24,7 +25,7 @@ export default {
   height: 12rem;
   margin: 1.5rem;
 }
-.PortfolioAvatar img {
+.PortfolioAvatar .AvatarImage img {
   border-radius: 100%;
   width: 100%;
 }

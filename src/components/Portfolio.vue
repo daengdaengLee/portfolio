@@ -8,8 +8,8 @@
 
 <script>
 import { mapState } from 'vuex';
-import PortfolioHeader from './PortfolioHeader';
-import PortfolioFooter from './PortfolioFooter';
+import PortfolioHeader from './PortfolioHeader/PortfolioHeader';
+import PortfolioFooter from './PortfolioFooter/PortfolioFooter';
 
 export default {
   name: 'Portfolio',
@@ -20,12 +20,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.Portfolio {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-</style>
