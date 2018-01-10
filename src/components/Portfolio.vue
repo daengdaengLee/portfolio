@@ -9,7 +9,7 @@
 <script>
 import { mapState } from 'vuex';
 import PortfolioHeader from './PortfolioHeader/PortfolioHeader';
-import PortfolioFooter from './PortfolioFooter';
+import PortfolioFooter from './PortfolioFooter/PortfolioFooter';
 
 export default {
   name: 'Portfolio',
