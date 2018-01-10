@@ -1,6 +1,6 @@
 <template>
   <section class="AboutMe">
-    <h3 class="HeadingText">About Me</h3>
+    <h3 class="HeadingText my-4">About Me</h3>
     <p class="MainText">안녕하세요. 저는 웹 개발 꿈나무입니다.</p>
   </section>
 </template>
