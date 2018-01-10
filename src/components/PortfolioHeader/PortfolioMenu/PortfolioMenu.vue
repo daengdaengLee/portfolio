@@ -7,7 +7,7 @@
     </li>
     <li class="MenuItem mx-2 col-3 col-md-2" @click="navigate('PortfolioAbout', 'router')">
       <div class="h-100 d-flex justify-content-center align-items-center">
-        Career
+        About
       </div>
     </li>
     <li class="MenuItem mx-2 col-3 col-md-2" @click="navigate('https://daengdaenglee.github.io', 'link')">
