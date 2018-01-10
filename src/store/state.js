@@ -29,6 +29,7 @@ export default {
       imgUrl: 'https://user-images.githubusercontent.com/30795415/33804319-b2564816-dde5-11e7-8d4a-60fc12d68898.jpg',
       altMessage: 'web calculator thumbnail image',
       headingText: 'Web Calculator',
+      simpleDesc: 'Vue.js를 이용한 간단한 계산기 앱입니다.',
       techStack: 'html, css, javascript, Vue.js, Vuex',
     },
     {
@@ -37,6 +38,7 @@ export default {
       imgUrl: 'https://user-images.githubusercontent.com/30795415/33947021-b0bd5caa-e066-11e7-809d-659e1eca5fd3.jpg',
       altMessage: 'pomodoro clock thumbnail image',
       headingText: 'Pomodoro Clock',
+      simpleDesc: 'Vue.js를 이용한 Pomodoro 시계 앱입니다.',
       techStack: 'html, css, javascript, Vue.js, Vuex',
     },
     {
@@ -45,6 +47,7 @@ export default {
       imgUrl: 'https://user-images.githubusercontent.com/30795415/34454215-0387aa94-edaa-11e7-9d71-4ff40c916517.jpg',
       altMessage: 'movie app react thumbnail image',
       headingText: 'Movie App React',
+      simpleDesc: 'React.js를 이용한 영화 차트 앱입니다.',
       techStack: 'html, css, javascript, React.js',
     },
     {
@@ -53,6 +56,7 @@ export default {
       imgUrl: 'https://user-images.githubusercontent.com/30795415/33804328-ddb39bee-dde5-11e7-886e-ee4cee2564d8.jpg',
       altMessage: 'thumbnail image 4',
       headingText: 'Heading Text 4',
+      simpleDesc: '',
       techStack: 'Description Text 4',
     },
     {
@@ -61,6 +65,7 @@ export default {
       imgUrl: 'https://user-images.githubusercontent.com/30795415/33804330-e4957054-dde5-11e7-99bc-a524087267b6.jpg',
       altMessage: 'thumbnail image 5',
       headingText: 'Heading Text 5',
+      simpleDesc: '',
       techStack: 'Description Text 5',
     },
     {
@@ -69,6 +74,7 @@ export default {
       imgUrl: 'https://user-images.githubusercontent.com/30795415/33804333-ebb5953a-dde5-11e7-902b-4cdbde57e350.jpg',
       altMessage: 'thumbnail image 6',
       headingText: 'Heading Text 6',
+      simpleDesc: '',
       techStack: 'Description Text 6',
     },
     {
@@ -77,6 +83,7 @@ export default {
       imgUrl: 'https://user-images.githubusercontent.com/30795415/33804336-f0544e7e-dde5-11e7-9aa5-43260da215cf.jpg',
       altMessage: 'thumbnail image 7',
       headingText: 'Heading Text 7',
+      simpleDesc: '',
       techStack: 'Description Text 7',
     },
   ],

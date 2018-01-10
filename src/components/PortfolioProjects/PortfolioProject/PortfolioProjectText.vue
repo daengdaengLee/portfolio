@@ -1,13 +1,17 @@
 <template>
   <div class="PortfolioProjcetText">
-    <h3 class="h3">Calculator with Vue.js</h3>
-    <p class="ProjectSimpleDesc">Vue.js를 이용한 간단한 계산기 앱입니다.</p>
+    <h3 class="h3">{{headingText}}</h3>
+    <p class="ProjectSimpleDesc">{{simpleDesc}}</p>
   </div>
 </template>
 
 <script>
 export default {
   name: 'PortfolioProjcetText',
+  props: {
+    headingText: { type: String, default() { return 'heading text'; } },
+    simpleDesc: { type: String, default() { return 'project'; } },
+  },
 };
 </script>
 

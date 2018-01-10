@@ -1,6 +1,6 @@
 <template>
   <section class="PortfolioProject">
-    <a href="#" target="_blank" class="ProjectLink row">
+    <a :href="linkURL" target="_blank" class="ProjectLink row">
       <div class="col-lg-5">
         <portfolio-project-thumbnail
           :thumbnailURL="thumbnailURL"
@@ -8,7 +8,10 @@
         />
       </div>
       <div class="col-lg-7">
-        <portfolio-project-text />
+        <portfolio-project-text
+          :headingText="headingText"
+          :simpleDesc="simpleDesc"
+        />
       </div>
     </a>
   </section>
@@ -22,7 +25,10 @@ export default {
   name: 'PortfolioProject',
   props: {
     thumbnailURL: { type: String, default() { return '#'; } },
-    altMessage: { type: String, dafault() { return 'thumbnail image'; } },
+    altMessage: { type: String, default() { return 'thumbnail image'; } },
+    headingText: { type: String, default() { return 'heading text'; } },
+    simpleDesc: { type: String, default() { return 'project'; } },
+    linkURL: { type: String, default() { return '#'; } },
   },
   components: {
     PortfolioProjectThumbnail,

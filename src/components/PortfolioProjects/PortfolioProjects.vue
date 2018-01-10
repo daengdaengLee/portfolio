@@ -7,6 +7,9 @@
         :key="project.id"
         :thumbnailURL="project.imgUrl"
         :altMessage="project.altMessage"
+        :headingText="project.headingText"
+        :simpleDesc="project.simpleDesc"
+        :linkURL="project.linkUrl"
         class="col-md-5"
       />
     </div>
