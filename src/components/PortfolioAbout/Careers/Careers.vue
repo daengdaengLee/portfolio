@@ -1,6 +1,6 @@
 <template>
-  <section class="Careers">
-    <h3 class="HeadingText my-4">Careers</h3>
+  <section class="Careers p-5">
+    <h3 class="HeadingText pb-4">Careers</h3>
     <p class="MainText">my careers...</p>
   </section>
 </template>

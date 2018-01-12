@@ -1,9 +1,9 @@
 <template>
   <section class="PortfolioAbout">
     <h2 class="HeadingText text-center py-3">About</h2>
-    <about-me class="mb-5" />
+    <about-me class="my-5" />
     <skills class="mb-5" />
-    <careers />
+    <careers class="mb-5" />
   </section>
 </template>
 
