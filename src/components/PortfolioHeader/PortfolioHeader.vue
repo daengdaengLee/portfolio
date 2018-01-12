@@ -1,5 +1,5 @@
 <template>
-  <header class="PortfolioHeader">
+  <header class="PortfolioHeader py-4">
     <portfolio-avatar></portfolio-avatar>
     <portfolio-heading-text></portfolio-heading-text>
     <portfolio-contacts></portfolio-contacts>
@@ -23,9 +23,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.PortfolioHeader {
-  padding: 2rem 0 2rem 0;
-}
-</style>

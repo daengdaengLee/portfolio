@@ -1,7 +1,7 @@
 <template>
-  <div class="PortfolioProjcetText">
-    <h3 class="h3">{{headingText}}</h3>
-    <p class="ProjectSimpleDesc">{{simpleDesc}}</p>
+  <div class="PortfolioProjcetText p-4">
+    <h3 class="HeadingText h3">{{headingText}}</h3>
+    <p class="ProjectSimpleDesc py-2">{{simpleDesc}}</p>
   </div>
 </template>
 
@@ -16,14 +16,13 @@ export default {
 </script>
 
 <style scoped>
-.PortfolioProjcetText {
-  padding: 1.5rem;
-  color: black;
+.PortfolioProjcetText .HeadingText {
+  color: gray;
 }
 .PortfolioProjcetText .ProjectSimpleDesc {
   font-size: 1.2rem;
   font-weight: 300;
-  padding: 0.5rem 0;
+  color: black;
 }
 </style>
 

@@ -1,6 +1,6 @@
 <template>
   <section class="PortfolioProjects">
-    <h2 class="headingText">Projcets</h2>
+    <h2 class="headingText text-center py-3">Projcets</h2>
     <div class="row justify-content-around">
       <portfolio-project
         v-for="project in projectsInfo"
@@ -31,9 +31,7 @@ export default {
 
 <style scoped>
 .PortfolioProjects .headingText {
-  text-align: center;
   font-size: 2rem;
   font-weight: 300;
-  padding: 1rem 0 3rem 0;
 }
 </style>
