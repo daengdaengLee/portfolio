@@ -1,13 +1,18 @@
 <template>
   <section class="Careers p-5">
     <h3 class="HeadingText pb-4">Careers</h3>
-    <p class="MainText">my careers...</p>
+    <Career />
   </section>
 </template>
 
 <script>
+import Career from './Career/Career';
+
 export default {
   name: 'Careers',
+  components: {
+    Career,
+  },
 };
 </script>
 
@@ -19,9 +24,5 @@ export default {
   font-size: 1.4rem;
   font-weight: 300;
   color: gray;
-}
-.Careers .MainText {
-  font-size: 1.2rem;
-  font-weight: 300;
 }
 </style>
