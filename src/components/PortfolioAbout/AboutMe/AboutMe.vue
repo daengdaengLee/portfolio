@@ -1,7 +1,11 @@
 <template>
   <section class="AboutMe p-5">
     <h3 class="HeadingText pb-4">About Me</h3>
-    <p class="MainText">안녕하세요. 저는 웹 개발 꿈나무입니다.</p>
+    <p class="MainText">
+      안녕하세요. 저는 웹 개발 꿈나무입니다.<br>
+      호기심이 많아 새로운 기술에 관심이 많습니다.<br>
+      가지고 있는 기술로 나만의 코드를 작성하는 것을 좋아합니다.<br>
+    </p>
   </section>
 </template>
 
