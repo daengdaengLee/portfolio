@@ -1,7 +1,20 @@
 <template>
   <section class="Skills p-5">
     <h3 class="HeadingText pb-4">Skills</h3>
-    <p class="MainText">my skills...</p>
+    <dl class="MainText row">
+      <dt class="col-sm-4 font-weight-normal my-3">
+        Web Front End
+      </dt>
+      <dd class="col-sm-8 my-3">
+        HTML, CSS, JavaScript, jQuery, React.js, Vue.js
+      </dd>
+      <dt class="col-sm-4 font-weight-normal my-3">
+        Web Back End
+      </dt>
+      <dd class="col-sm-8 my-3">
+        Node.js, Express.js, Python, Django, Java
+      </dd>
+    </dl>
   </section>
 </template>
 
