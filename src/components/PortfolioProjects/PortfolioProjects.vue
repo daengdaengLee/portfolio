@@ -1,6 +1,6 @@
 <template>
   <section class="PortfolioProjects">
-    <h2 class="headingText text-center py-3">Projcets</h2>
+    <h2 class="headingText text-center py-3">Projects</h2>
     <div class="row justify-content-around">
       <portfolio-project
         v-for="project in projectsInfo"
