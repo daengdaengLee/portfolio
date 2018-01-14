@@ -4,7 +4,8 @@ import './PageTitle.css';
 function PageTitle() {
   return (
     <h1 className="Portfolio_PageTitle">
-      This is PageTitle Component
+      Hi, I'm <strong>Kunho Lee</strong>.<br />
+      Are you looking for a <strong>web developer</strong>? PICK ME!
     </h1>
   );
 }

@@ -1,3 +1,8 @@
 .Portfolio_PageTitle {
-  color: red;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 2.3rem;
+}
+.Portfolio_PageTitle strong {
+  color: gray;
 }
