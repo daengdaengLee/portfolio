@@ -21,4 +21,14 @@ storiesOf('ContactButton', module)
 tagName="FaGithubAlt"
 iconDesc="github icon"
 linkURL="https://google.com"
+/>)
+.add('ContactButton Component codepen', () => <ContactButton
+tagName="FaCodepen"
+iconDesc="codepen icon"
+linkURL="https://google.com"
+/>)
+.add('ContactButton Component mail', () => <ContactButton
+tagName="FaEnvelopeO"
+iconDesc="mail icon"
+linkURL="https://google.com"
 />);
