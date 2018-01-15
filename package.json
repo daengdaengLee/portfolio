@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-icons": "^2.2.7",
     "react-scripts": "1.0.17"
   },
   "scripts": {
@@ -16,10 +17,10 @@
     "build-storybook": "build-storybook -s public"
   },
   "devDependencies": {
-    "@storybook/react": "^3.3.9",
     "@storybook/addon-actions": "^3.3.9",
     "@storybook/addon-links": "^3.3.9",
     "@storybook/addons": "^3.3.9",
+    "@storybook/react": "^3.3.9",
     "babel-core": "^6.26.0"
   }
 }
