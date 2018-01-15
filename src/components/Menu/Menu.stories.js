@@ -14,4 +14,10 @@ storiesOf('Menu', module)
 ))
 .add('Menu Component Projects', () => <Menu
   menuName="Projects"
+/>)
+.add('Menu Component About', () => <Menu
+  menuName="About"
+/>)
+.add('Menu Component Blog', () => <Menu
+  menuName="Blog"
 />);
