@@ -6,7 +6,7 @@ const components = {
   FaFacebook,
 };
 
-function ContactButton({ tagName }) {
+function ContactButton({ tagName, iconDesc }) {
   const TagName = components[tagName];
   return (
     <a
@@ -15,7 +15,7 @@ function ContactButton({ tagName }) {
       className="Portfolio_ContactButton"
     >
       <TagName />
-      <span className="Label">contact icon</span>
+      <span className="Label">{iconDesc}</span>
     </a>
   );
 }
