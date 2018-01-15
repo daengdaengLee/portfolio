@@ -1,10 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import FaFacebook from 'react-icons/lib/fa/facebook';
+import FaGithubAlt from 'react-icons/lib/fa/github-alt';
 import './ContactButton.css';
 
 const components = {
   FaFacebook,
+  FaGithubAlt,
 };
 
 function ContactButton({ tagName, iconDesc, linkURL }) {
