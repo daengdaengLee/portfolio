@@ -8,7 +8,7 @@ import Menu from './Menu';
 
 storiesOf('Menu', module)
 .addDecorator((story) => (
-  <div style={{ width: '8rem', height: '2rem', marginTop: '3rem', marginLeft: '3rem'}}>
+  <div style={{ width: '8rem', height: '4rem', marginTop: '3rem', marginLeft: '3rem'}}>
     {story()}
   </div>
 ))
