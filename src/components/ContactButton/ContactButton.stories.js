@@ -7,5 +7,13 @@ import { linkTo } from '@storybook/addon-links';
 import ContactButton from './ContactButton';
 
 storiesOf('ContactButton', module)
-.addDecorator((story) => <div style={{ width: '5rem', height: '5rem', marginTop: '3rem', marginLeft: '3rem'}}>{story()}</div>)
-.add('ContactButton Component', () => <ContactButton tagName={'FaFacebook'} iconDesc="facebook icon" />);
+.addDecorator((story) => (
+  <div style={{ width: '5rem', height: '5rem', marginTop: '3rem', marginLeft: '3rem'}}>
+    {story()}
+  </div>
+))
+.add('ContactButton Component', () => <ContactButton
+  tagName={'FaFacebook'}
+  iconDesc="facebook icon"
+  linkURL="https://google.com"
+/>);

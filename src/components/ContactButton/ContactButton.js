@@ -6,11 +6,11 @@ const components = {
   FaFacebook,
 };
 
-function ContactButton({ tagName, iconDesc }) {
+function ContactButton({ tagName, iconDesc, linkURL }) {
   const TagName = components[tagName];
   return (
     <a
-      href="https://google.com"
+      href={linkURL}
       target="_blank"
       className="Portfolio_ContactButton"
     >
