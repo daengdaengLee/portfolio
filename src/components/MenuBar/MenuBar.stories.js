@@ -8,7 +8,7 @@ import MenuBar from './MenuBar';
 
 storiesOf('MenuBar', module)
 .addDecorator((story) => (
-  <div style={{ width: '8rem', height: '2rem', marginTop: '3rem', marginLeft: '3rem'}}>
+  <div className="container">
     {story()}
   </div>
 ))
