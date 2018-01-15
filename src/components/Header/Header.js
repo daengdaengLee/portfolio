@@ -9,7 +9,7 @@ import './Header.css';
 
 function Header() {
   return (
-    <header className="Portfolio_Header">
+    <header className="Portfolio_Header d-flex flex-column align-items-center">
       <Avatar />
       <ContactList />
       <MenuBar />
