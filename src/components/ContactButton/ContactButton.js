@@ -2,14 +2,19 @@ import React from 'react';
 import FaFacebook from 'react-icons/lib/fa/facebook';
 import './ContactButton.css';
 
-function ContactButton() {
+const components = {
+  FaFacebook,
+};
+
+function ContactButton({ tagName }) {
+  const TagName = components[tagName];
   return (
     <a
       href="https://google.com"
       target="_blank"
       className="Portfolio_ContactButton"
     >
-      <FaFacebook />
+      <TagName />
       <span className="Label">contact icon</span>
     </a>
   );
