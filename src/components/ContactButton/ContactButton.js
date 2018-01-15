@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import FaFacebook from 'react-icons/lib/fa/facebook';
 import './ContactButton.css';
 
@@ -19,5 +20,11 @@ function ContactButton({ tagName, iconDesc, linkURL }) {
     </a>
   );
 }
+
+ContactButton.prototype = {
+  tagName: PropTypes.string.isRequired,
+  iconDesc: PropTypes.string.isRequired,
+  linkURL: PropTypes.string.isRequired,
+};
 
 export default ContactButton;
