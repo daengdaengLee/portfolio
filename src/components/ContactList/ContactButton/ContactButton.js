@@ -27,7 +27,7 @@ function ContactButton({ tagName, iconDesc, linkURL }) {
   );
 }
 
-ContactButton.prototype = {
+ContactButton.propTypes = {
   tagName: PropTypes.string.isRequired,
   iconDesc: PropTypes.string.isRequired,
   linkURL: PropTypes.string.isRequired,
