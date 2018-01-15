@@ -1,18 +1,10 @@
 .Portfolio_ContactButton {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
   width: 2rem;
   height: 2rem;
   color: gray;
-  text-decoration: none;
   border: 1px solid darkgray;
-  border-radius: 50%;
 }
 .Portfolio_ContactButton:hover {
   color:white;
   background-color: darkgray;
-}
-.Portfolio_ContactButton .Label {
-  display: none;
 }

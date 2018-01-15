@@ -19,10 +19,10 @@ function ContactButton({ tagName, iconDesc, linkURL }) {
     <a
       href={linkURL}
       target="_blank"
-      className="Portfolio_ContactButton"
+      className="Portfolio_ContactButton rounded-circle d-inline-flex justify-content-center align-items-center"
     >
       <TagName />
-      <span className="Label">{iconDesc}</span>
+      <span className="d-none">{iconDesc}</span>
     </a>
   );
 }
