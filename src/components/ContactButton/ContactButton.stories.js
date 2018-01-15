@@ -13,7 +13,7 @@ storiesOf('ContactButton', module)
   </div>
 ))
 .add('ContactButton Component', () => <ContactButton
-  tagName={'FaFacebook'}
+  tagName="FaFacebook"
   iconDesc="facebook icon"
   linkURL="https://google.com"
 />);
