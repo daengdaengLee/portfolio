@@ -8,10 +8,10 @@ import Menu from './Menu';
 
 storiesOf('Menu', module)
 .addDecorator((story) => (
-  <div style={{ width: '5rem', height: '5rem', marginTop: '3rem', marginLeft: '3rem'}}>
+  <div style={{ width: '8rem', height: '2rem', marginTop: '3rem', marginLeft: '3rem'}}>
     {story()}
   </div>
 ))
 .add('Menu Component Projects', () => <Menu
-  
+  menuName="Projects"
 />);

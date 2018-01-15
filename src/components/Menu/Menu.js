@@ -1,9 +1,11 @@
 import React from 'react';
 import './Menu.css';
 
-function Menu() {
+function Menu({ menuName }) {
   return (
-    <div className="Portfolio_Menu">Menu component</div>
+    <div className="Portfolio_Menu">
+      {menuName}
+    </div>
   );
 }
 
