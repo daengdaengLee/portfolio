@@ -11,9 +11,9 @@ function Header() {
   return (
     <header className="Portfolio_Header d-flex flex-column align-items-center">
       <Avatar />
+      <PageTitle />
       <ContactList />
       <MenuBar />
-      <PageTitle />
     </header>
   );
 }
