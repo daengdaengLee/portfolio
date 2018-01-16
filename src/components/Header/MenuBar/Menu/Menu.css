@@ -2,6 +2,7 @@
   height: 2.4rem;
   color: gray;
   border: 1px solid darkgray;
+  user-select: none;
 }
 .Portfolio_Menu:hover {
   background-color: darkgray;
