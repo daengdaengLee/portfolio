@@ -1,3 +1,17 @@
-.Portfolio_Footer {
-  color: red;
+.Portfolio_Footer::before {
+  content: '';
+  display: block;
+  text-align: center;
+  margin: 4rem;
+  border-top: 1px solid gray;
+}
+.Portfolio_Footer .FooterText {
+  font-size: 1.2rem;
+}
+.Portfolio_Footer .FooterText .FooterLink {
+  text-decoration: none;
+  color: gray;
+}
+.Portfolio_Footer .FooterText .FooterLink:hover {
+  color: darkgray;
 }

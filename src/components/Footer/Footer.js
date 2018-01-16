@@ -4,10 +4,10 @@ import './Footer.css';
 
 function Footer({ userLink, codeRepoLink }) {
   return (
-    <footer className="Portfolio_Footer">
-      <p>
-        Coded by <a href={userLink} target="_blank">KunhoLee</a>.<br />
-        You can see the code from <a href={codeRepoLink} target="_blank">here</a>!
+    <footer className="Portfolio_Footer pb-5">
+      <p className="FooterText text-center">
+        Coded by <a href={userLink} target="_blank" className="FooterLink">KunhoLee</a>.<br />
+        You can see the code from <a href={codeRepoLink} target="_blank" className="FooterLink">here</a>!
       </p>
     </footer>
   );
