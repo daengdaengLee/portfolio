@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Menu.css';
 
 function Menu({ menuName }) {
@@ -8,5 +9,9 @@ function Menu({ menuName }) {
     </div>
   );
 }
+
+Menu.propTypes = {
+  menuName: PropTypes.string.isRequired,
+};
 
 export default Menu;
