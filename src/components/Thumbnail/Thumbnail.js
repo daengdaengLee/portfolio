@@ -1,12 +1,20 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Thumbnail.css';
 
-function Thumbnail() {
+function Thumbnail({ imgURL, altText }) {
   return (
-    <div className="Portfolio_Thumbnail">
-      test
-    </div>
+    <img
+      src={imgURL}
+      alt={altText}
+      className="Portfolio_Thumbnail w-100 position-relative"
+    />
   );
 }
+
+Thumbnail.propTypes = {
+  imgURL: PropTypes.string.isRequired,
+  altText: PropTypes.string.isRequired
+};
 
 export default Thumbnail;
