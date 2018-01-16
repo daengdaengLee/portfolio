@@ -9,6 +9,7 @@ function ProjectDesc({ title, desc }) {
     <div className="Portfolio_ProjectDesc p-4">
       <ProjectTitle
         projectTitle={title}
+        className="mb-4"
       />
       <ProjectSynopsis
         projectDesc={desc}
