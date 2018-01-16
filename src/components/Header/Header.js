@@ -13,7 +13,7 @@ function Header() {
       <Avatar />
       <PageTitle className="my-5" />
       <ContactList />
-      <MenuBar />
+      <MenuBar className="mt-5" />
     </header>
   );
 }
