@@ -7,10 +7,9 @@ import './ProjectDesc.css';
 function ProjectDesc({ title, desc }) {
   return (
     <div className="Portfolio_ProjectDesc p-4">
-      <ProjectTitle
-        projectTitle={title}
-        className="mb-4"
-      />
+      <div className="mb-4">
+        <ProjectTitle projectTitle={title} />
+      </div>
       <ProjectSynopsis
         projectDesc={desc}
       />

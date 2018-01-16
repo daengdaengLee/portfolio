@@ -2,11 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './ProjectTitle.css';
 
-function ProjectTitle({ projectTitle, className }) {
-  const localClassName = "Portfolio_ProjectTitle";
-  const componentClassName = className ? `${localClassName} ${className}` : localClassName;
+function ProjectTitle({ projectTitle }) {
   return (
-    <h3 className={componentClassName}>{projectTitle}</h3>
+    <h3 className="Portfolio_ProjectTitle">{projectTitle}</h3>
   );
 }
 
