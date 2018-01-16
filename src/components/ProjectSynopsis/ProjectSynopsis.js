@@ -1,10 +1,17 @@
 import React from 'react';
+import LinesEllipsis from 'react-lines-ellipsis';
 import './ProjectSynopsis.css';
 
-function ProjectSynopsis() {
+function ProjectSynopsis({ projectDesc }) {
   return (
     <div className="Portfolio_ProjectSynopsis">
-      test
+      <LinesEllipsis
+        text={projectDesc}
+        maxLine='5'
+        ellipsis='...'
+        trimRight
+        basedOn='letters'
+      />
     </div>
   );
 }
