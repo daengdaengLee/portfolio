@@ -12,4 +12,7 @@ storiesOf('Footer', module)
     {story()}
   </div>
 ))
-.add('Footer Component', () => <Footer />);
+.add('Footer Component', () => <Footer
+  userLink="https://daengdaenglee.github.io/portfolio"
+  codeRepoLink="https://github.com/daengdaengLee/portfolio"
+/>);
