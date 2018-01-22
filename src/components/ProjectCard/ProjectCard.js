@@ -6,15 +6,19 @@ import './ProjectCard.css';
 
 function ProjectCard({ imgURL, altText, title, desc }) {
   return (
-    <section className="Portfolio_ProjectCard">
-      <Thumbnail
-        imgURL={imgURL}
-        altText={altText}
-      />
-      <ProjectDesc
-        title={title}
-        desc={desc}
-      />
+    <section className="Portfolio_ProjectCard row">
+      <div className="col-md-5">
+        <Thumbnail
+          imgURL={imgURL}
+          altText={altText}
+        />
+      </div>
+      <div className="col-md-5">
+        <ProjectDesc
+          title={title}
+          desc={desc}
+        />
+      </div>
     </section>
   );
 }
