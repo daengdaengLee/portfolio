@@ -13,7 +13,7 @@ function ProjectCard({ imgURL, altText, title, desc }) {
           altText={altText}
         />
       </div>
-      <div className="col-md-6">
+      <div className="col-md-6 d-inline-flex align-items-center">
         <ProjectDesc
           title={title}
           desc={desc}
