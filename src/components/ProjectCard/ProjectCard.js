@@ -7,13 +7,13 @@ import './ProjectCard.css';
 function ProjectCard({ imgURL, altText, title, desc }) {
   return (
     <section className="Portfolio_ProjectCard row mx-0">
-      <div className="col-md-5">
+      <div className="col-md-6">
         <Thumbnail
           imgURL={imgURL}
           altText={altText}
         />
       </div>
-      <div className="col-md-5">
+      <div className="col-md-6">
         <ProjectDesc
           title={title}
           desc={desc}
