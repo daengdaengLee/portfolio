@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ProjectTitle from './ProjectTitle/ProjectTitle';
 import ProjectSynopsis from './ProjectSynopsis/ProjectSynopsis';
-import './ProjectDesc.css';
 
 function ProjectDesc({ title, desc }) {
   return (
