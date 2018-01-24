@@ -1,4 +1,5 @@
 import React from 'react';
+import ProjectCard from './ProjectCard/ProjectCard';
 
 function ProjectPage() {
   return (
