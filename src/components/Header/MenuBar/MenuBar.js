@@ -8,7 +8,7 @@ function MenuBar() {
   return (
     <ul className="row justify-content-center w-100 mx-0">
       <li className="col-3 col-md-2">
-        <Link to="/portfolio"><Menu menuName="Projects" /></Link>
+        <Link to="/portfolio" style={{ textDecoration: 'none' }}><Menu menuName="Projects" /></Link>
       </li>
       <li className="col-3 col-md-2">
         <Menu menuName="About" />
