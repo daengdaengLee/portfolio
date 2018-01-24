@@ -8,9 +8,8 @@ function ContactList() {
   return (
     <ul className="list-inline">
       {contactInfo.map((info) => (
-        <li className="list-inline-item mx-2">
+        <li key={info.id} className="list-inline-item mx-2">
           <ContactButton
-            key={info.id}
             tagName={info.tagName}
             iconDesc={info.iconDesc}
             linkURL={info.linkURL}
