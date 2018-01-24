@@ -10,7 +10,7 @@ const dummyText ='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
 
 storiesOf('ProjectCard', module)
 .addDecorator((story) => (
-  <div style={{ width: '24rem', margin: '5rem', border: '1px solid red' }}>
+  <div style={{ width: '24rem', margin: '5rem' }}>
     {story()}
   </div>
 ))
