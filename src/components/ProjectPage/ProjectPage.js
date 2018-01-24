@@ -2,9 +2,9 @@ import React from 'react';
 
 function ProjectPage() {
   return (
-    <div>
-      ProjectPage
-    </div>
+    <section>
+      <h2>Projects</h2>
+    </section>
   );
 }
 
