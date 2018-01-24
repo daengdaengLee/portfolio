@@ -1,0 +1,6 @@
+.Portfolio_Avatar {
+  width: 12rem;
+  height: 12rem;
+  border: 1px solid gray;
+  background-color: rgba(0, 0, 0, 0.05);
+}
