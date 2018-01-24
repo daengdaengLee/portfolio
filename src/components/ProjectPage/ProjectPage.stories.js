@@ -5,7 +5,6 @@ import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 
 import ProjectPage from './ProjectPage';
-import projectInfo from './projectInfo';
 
 storiesOf('ProjectPage', module)
 .addDecorator((story) => (
@@ -13,6 +12,4 @@ storiesOf('ProjectPage', module)
     {story()}
   </div>
 ))
-.add('ProjectPage Component', () => <ProjectPage
-  projectInfo={projectInfo}
-/>);
+.add('ProjectPage Component', () => <ProjectPage />);

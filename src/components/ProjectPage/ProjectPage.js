@@ -1,8 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import ProjectCard from './ProjectCard/ProjectCard';
+import projectInfo from './projectInfo';
 
-function ProjectPage({ projectInfo }) {
+function ProjectPage() {
   return (
     <section>
       <h2>Projects</h2>
@@ -22,15 +22,5 @@ function ProjectPage({ projectInfo }) {
     </section>
   );
 }
-
-ProjectPage.propTypes = {
-  projectInfo: PropTypes.arrayOf(PropTypes.shape({
-    id: PropTypes.number.isRequired,
-    imgURL: PropTypes.string.isRequired,
-    altText: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    desc: PropTypes.string.isRequired,
-  })).isRequired
-};
 
 export default ProjectPage;
