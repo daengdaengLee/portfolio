@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 import Header from './Header/Header';
 import ProjectPage from './ProjectPage/ProjectPage';
@@ -14,7 +14,7 @@ class App extends Component {
             <Header />
           </div>
           <div className="my-5">
-            <ProjectPage />
+            <Route exact path="/portfolio" component={ProjectPage} />
           </div>
           <div className="mb-5">
             <Footer />
