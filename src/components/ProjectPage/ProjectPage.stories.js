@@ -8,11 +8,11 @@ import ProjectPage from './ProjectPage';
 import projectInfo from './projectInfo';
 
 storiesOf('ProjectPage', module)
-// .addDecorator((story) => (
-//   <div style={{ width: '24rem', margin: '5rem' }}>
-//     {story()}
-//   </div>
-// ))
+.addDecorator((story) => (
+  <div className="container" style={{ margin: '2rem' }}>
+    {story()}
+  </div>
+))
 .add('ProjectPage Component', () => <ProjectPage
   projectInfo={projectInfo}
 />);
