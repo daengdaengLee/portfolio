@@ -7,9 +7,11 @@ import './ProjectModalDesc.css';
 
 function ProjectModalDesc({ title, desc, pageLink, repoLink }) {
   return (
-    <div className="Portfolio_ProjectModalDesc">
-      <ProjectTitle projectTitle={title} />
-      <div className="desc">
+    <div className="Portfolio_ProjectModalDesc p-4">
+      <div className="mb-4">
+        <ProjectTitle projectTitle={title} />
+      </div>
+      <div className="desc mb-4">
         {desc}
       </div>
       <ProjectLink
