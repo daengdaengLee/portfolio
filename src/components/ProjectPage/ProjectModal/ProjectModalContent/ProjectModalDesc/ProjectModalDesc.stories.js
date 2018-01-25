@@ -17,6 +17,6 @@ storiesOf('ProjectModalDesc', module)
 .add('ProjectModalDesc Component', () => <ProjectModalDesc
   title="Web Calculator"
   desc={dummyText}
-  // repoLink="https://github.com"
-  // pageLink="https://daengdaenglee.github.io/portfolio"
+  repoLink="https://github.com"
+  pageLink="https://daengdaenglee.github.io/portfolio"
 />);
