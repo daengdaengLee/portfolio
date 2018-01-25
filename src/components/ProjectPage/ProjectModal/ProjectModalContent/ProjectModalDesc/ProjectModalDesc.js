@@ -11,13 +11,15 @@ function ProjectModalDesc({ title, desc, pageLink, repoLink }) {
       <div className="mb-4">
         <ProjectTitle projectTitle={title} />
       </div>
-      <div className="desc mb-4">
+      <div className="mb-4">
+        <ProjectLink
+          pageLink={pageLink}
+          repoLink={repoLink}
+        />
+      </div>
+      <div className="desc">
         {desc}
       </div>
-      <ProjectLink
-        pageLink={pageLink}
-        repoLink={repoLink}
-      />
     </div>
   );
 }
