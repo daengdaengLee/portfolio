@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ProjectTitle from '../../../ProjectCard/ProjectDesc/ProjectTitle/ProjectTitle';
-import ProjectLink from '../../../ProjectCard/ProjectDesc/ProjectLink/ProjectLink';
+import ProjectTitle from '../../../ProjectDesc/ProjectTitle/ProjectTitle';
+import ProjectLink from '../../../ProjectDesc/ProjectLink/ProjectLink';
 
 import './ProjectModalDesc.css';
 
