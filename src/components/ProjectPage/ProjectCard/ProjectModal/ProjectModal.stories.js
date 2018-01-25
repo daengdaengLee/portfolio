@@ -15,6 +15,8 @@ storiesOf('ProjectModal', module)
 //   </div>
 // ))
 .add('ProjectModal Component', () => <ProjectModal
+  isOpen={true}
+  contentLabel="Web Calculator Project Modal"
   // imgURL="https://user-images.githubusercontent.com/30795415/33804319-b2564816-dde5-11e7-8d4a-60fc12d68898.jpg"
   // altText="Web Calculator Thumbnail Image"
   // title="Web Calculator"
