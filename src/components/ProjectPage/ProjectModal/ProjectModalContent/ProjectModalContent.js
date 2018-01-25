@@ -5,17 +5,21 @@ import ProjectModalDesc from './ProjectModalDesc/ProjectModalDesc';
 
 function ProjectModalContent({ imgURL, altText, title, desc, pageLink, repoLink }) {
   return (
-    <section>
-      <Thumbnail
-        imgURL={imgURL}
-        altText={altText}
-      />
-      <ProjectModalDesc
-        title={title}
-        desc={desc}
-        pageLink={pageLink}
-        repoLink={repoLink}
-      />
+    <section className="row mx-0 p-4">
+      <div className="col-md-6 py-3">
+        <Thumbnail
+          imgURL={imgURL}
+          altText={altText}
+        />
+      </div>
+      <div className="col-md-6">
+        <ProjectModalDesc
+          title={title}
+          desc={desc}
+          pageLink={pageLink}
+          repoLink={repoLink}
+        />
+      </div>
     </section>
   );
 }
