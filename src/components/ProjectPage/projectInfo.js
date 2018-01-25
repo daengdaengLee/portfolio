@@ -13,7 +13,7 @@ const projectInfo = [
     imgURL: 'https://user-images.githubusercontent.com/30795415/33947021-b0bd5caa-e066-11e7-809d-659e1eca5fd3.jpg',
     altText: 'pomodoro clock thumbnail image',
     title: 'Pomodoro Clock',
-    desc: dummyText,
+    desc: 'Vue.js를 이용해 만든 토마토 시계(Pomodoro Clock)입니다. 시계 중앙 타이머 영역을 클릭하면 타이머를 시작할 수 있습니다. Session 타이머가 끝나면 자동으로 Break 타이머가 시작됩니다. Break 타이머가 끝나면 다시 Session 타이머가 자동으로 시작됩니다. 한 번 시작하면 여러분이 타이머를 멈추고 싶을 때까지 추가적인 조작을 할 필요가 없습니다. 타이머를 멈추고 싶다면 타이머 영역을 클릭하세요. 시계 상단에서 Session과 Break 시간을 조절할 수 있습니다. 시간은 1분 단위로 늘어나고 줄어듭니다. 중간에 타이머를 처음부터 다시 시작하고 싶다면 시계 하단의 Reset 버튼을 클릭하세요. 타이머는 Session의 처음 상태로 돌아가서 멈춥니다. 타이머를 클릭하면 타이머가 다시 시작됩니다.',
   },
   {
     id: 3,
