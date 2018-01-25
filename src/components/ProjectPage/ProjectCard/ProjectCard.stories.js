@@ -19,4 +19,6 @@ storiesOf('ProjectCard', module)
   altText="Web Calculator Thumbnail Image"
   title="Web Calculator"
   desc={dummyText}
+  repoLink="https://github.com"
+  pageLink="https://google.com"
 />);

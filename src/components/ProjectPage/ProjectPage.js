@@ -16,6 +16,8 @@ function ProjectPage() {
               altText={project.altText}
               title={project.title}
               desc={project.desc}
+              pageLink={project.pageLink}
+              repoLink={project.repoLink}
             />
           </div>
         ))}
