@@ -10,9 +10,11 @@ function ProjectDesc({ title, desc }) {
       <div className="mb-4">
         <ProjectTitle projectTitle={title} />
       </div>
-      <ProjectSynopsis
-        projectDesc={desc}
-      />
+      <div className="mb-4">
+        <ProjectSynopsis
+          projectDesc={desc}
+        />
+      </div>
       <ProjectLink
         pageLink="https://google.com"
         repoLink="https://github.com"
