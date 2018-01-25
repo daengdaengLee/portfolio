@@ -8,4 +8,6 @@ import ProjectLink from './ProjectLink';
 
 storiesOf('ProjectLink', module)
 .add('ProjectLink Component', () => <ProjectLink
+  pageLink="https://daengdaenglee.github.io/portfolio"
+  repoLink="https://github.com"
 />);
