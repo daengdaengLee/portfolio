@@ -1,28 +1,62 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ProjectDesc from './ProjectDesc/ProjectDesc';
 import Thumbnail from './Thumbnail/Thumbnail';
+import ProjectModal from './ProjectModal/ProjectModal';
 import './ProjectCard.css';
 
-function ProjectCard({ imgURL, altText, title, desc, repoLink, pageLink }) {
-  return (
-    <section className="Portfolio_ProjectCard row mx-0">
-      <div className="col-md-6 thumbnail">
-        <Thumbnail
+class ProjectCard extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { isOpen: false };
+    this._openModal = this._openModal.bind(this);
+    this._closeModal = this._closeModal.bind(this);
+  }
+
+  render() {
+    const { imgURL, altText, title, desc, repoLink, pageLink } = this.props;
+    const { isOpen } = this.state;
+    const { _openModal, _closeModal } = this;
+    return (
+      <div>
+        <section className="Portfolio_ProjectCard row mx-0" onClick={_openModal}>
+          <div className="col-md-6 thumbnail">
+            <Thumbnail
+              imgURL={imgURL}
+              altText={altText}
+            />
+          </div>
+          <div className="col-md-6 d-inline-flex align-items-center">
+            <ProjectDesc
+              title={title}
+              desc={desc}
+              repoLink={repoLink}
+              pageLink={pageLink}
+            />
+          </div>
+        </section>
+        <ProjectModal
+          isOpen={isOpen}
+          contentLabel={title}
+          onRequestClose={_closeModal}
           imgURL={imgURL}
           altText={altText}
-        />
-      </div>
-      <div className="col-md-6 d-inline-flex align-items-center">
-        <ProjectDesc
           title={title}
           desc={desc}
-          repoLink={repoLink}
           pageLink={pageLink}
+          repoLink={repoLink}
         />
       </div>
-    </section>
-  );
+    );
+  }
+
+  _openModal() {
+    this.setState({ isOpen: true });
+  }
+
+  _closeModal() {
+    this.setState({ isOpen: false });
+  }
 }
 
 ProjectCard.propTypes = {
