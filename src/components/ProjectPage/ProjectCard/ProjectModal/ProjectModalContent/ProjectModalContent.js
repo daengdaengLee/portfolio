@@ -5,7 +5,7 @@ import ProjectModalDesc from './ProjectModalDesc/ProjectModalDesc';
 
 function ProjectModalContent({ imgURL, altText, title, desc, pageLink, repoLink }) {
   return (
-    <section className="row mx-0 p-4">
+    <section className="row mx-0 p-md-4">
       <div className="col-md-6 py-3">
         <Thumbnail
           imgURL={imgURL}
