@@ -11,6 +11,7 @@ function ProjectModal({ isOpen, contentLabel, onRequestClose, imgURL, altText, t
       isOpen={isOpen}
       contentLabel={contentLabel}
       onRequestClose={onRequestClose}
+      bodyOpenClassName="modal-open"
     >
       <ProjectModalContent
         imgURL={imgURL}
