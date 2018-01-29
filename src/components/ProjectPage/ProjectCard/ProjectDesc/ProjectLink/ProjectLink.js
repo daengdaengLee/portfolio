@@ -6,8 +6,8 @@ import './ProjectLink.css';
 function ProjectLink({ pageLink, repoLink }) {
   return (
     <ul className="Portfolio_ProjectLink">
-      <li className="my-1"><a href={pageLink} target="_blank" className="link">Project Page</a></li>
-      <li><a href={repoLink} target="_blank" className="link">Project Repo</a></li>
+      <li className="my-1"><a href={pageLink} target="_blank" className="link" onClick={(e) => e.stopPropagation()}>Project Page</a></li>
+      <li><a href={repoLink} target="_blank" className="link" onClick={(e) => e.stopPropagation()}>Project Repo</a></li>
     </ul>
   );
 }

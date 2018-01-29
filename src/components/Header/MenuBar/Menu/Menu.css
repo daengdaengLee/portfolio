@@ -3,9 +3,16 @@
   color: gray;
   border: 1px solid darkgray;
   user-select: none;
+  font-size: 0.7rem;
 }
 .Portfolio_Menu:hover {
   background-color: darkgray;
   cursor: pointer;
   color: white;
+}
+
+@media (min-width: 576px) {
+  .Portfolio_Menu {
+    font-size: 1rem;
+  }
 }
