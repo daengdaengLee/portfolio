@@ -4,20 +4,20 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 
-import Menu from './Menu';
+import MenuButton from './MenuButton';
 
-storiesOf('Menu', module)
+storiesOf('MenuButton', module)
 .addDecorator((story) => (
   <div style={{ width: '8rem', height: '4rem', marginTop: '3rem', marginLeft: '3rem'}}>
     {story()}
   </div>
 ))
-.add('Menu Component Projects', () => <Menu
+.add('MenuButton Component Projects', () => <MenuButton
   menuName="Projects"
 />)
-.add('Menu Component About', () => <Menu
+.add('MenuButton Component About', () => <MenuButton
   menuName="About"
 />)
-.add('Menu Component Blog', () => <Menu
+.add('MenuButton Component Blog', () => <MenuButton
   menuName="Blog"
 />);
