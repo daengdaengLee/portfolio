@@ -18,4 +18,5 @@ storiesOf('ProjectModal', module)
   desc={dummyText}
   repoLink="https://github.com"
   pageLink="https://google.com"
+  onRequestClose={() => alert('hi!')}
 />);
