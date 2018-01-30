@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Thumbnail from '../../Thumbnail/Thumbnail';
-import ProjectModalDesc from './ProjectModalDesc/ProjectModalDesc';
+import Thumbnail from '../Thumbnail/Thumbnail';
+import ProjectModalDesc from '../ProjectModalDesc/ProjectModalDesc';
 
 function ProjectModalContent({ imgURL, altText, title, desc, pageLink, repoLink }) {
   return (
