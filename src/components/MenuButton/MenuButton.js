@@ -10,7 +10,7 @@ function MenuButton({ menuName }) {
   );
 }
 
-Menu.propTypes = {
+MenuButton.propTypes = {
   menuName: PropTypes.string.isRequired,
 };
 
