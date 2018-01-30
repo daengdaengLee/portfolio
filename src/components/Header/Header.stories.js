@@ -4,12 +4,16 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 
+import { BrowserRouter } from 'react-router-dom';
+
 import Header from './Header';
 
 storiesOf('Header', module)
 .addDecorator((story) => (
-  <div className="container">
-    {story()}
-  </div>
+  <BrowserRouter>
+    <div className="container">
+      {story()}
+    </div>
+  </BrowserRouter>
 ))
 .add('Header Component', () => <Header />);
