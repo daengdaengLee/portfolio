@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-import Menu from './Menu/Menu';
+import Menu from '../Menu/Menu';
 
 import './MenuBar.css';
 
