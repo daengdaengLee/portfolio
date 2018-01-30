@@ -2,12 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Image({ src, altText, rounded }) {
+  const classes = `${rounded} w-100`;
   return (
-    <div>
-      <p>{src}</p>
-      <p>{altText}</p>
-      <p>{rounded}</p>
-    </div>
+    <img
+      src={src}
+      alt={altText}
+      className={classes}
+    />
   );
 }
 

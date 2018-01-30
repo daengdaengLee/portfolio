@@ -7,6 +7,11 @@ import { linkTo } from '@storybook/addon-links';
 import Image from './Image';
 
 storiesOf('Image', module)
+.addDecorator((story) => (
+  <div style={{ width: '10rem', height: '10rem', marginTop: '3rem', marginLeft: '3rem'}}>
+    {story()}
+  </div>
+))
 .add('Image Component rounded', () => <Image
   src="https://user-images.githubusercontent.com/30795415/33804339-036ace2a-dde6-11e7-9b25-84e6c60be326.jpg"
   altText="프로필 이미지"
