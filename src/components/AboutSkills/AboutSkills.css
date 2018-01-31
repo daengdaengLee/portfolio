@@ -1,4 +1,18 @@
 .Portfolio_AboutSkills .heading {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: gray;
+}
+
+.Portfolio_AboutSkills .main {
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  .Portfolio_AboutSkills .heading {
+    font-size: 1.4rem;
+  }
+  
+  .Portfolio_AboutSkills .main {
+    font-size: 1.2rem;
+  }
 }
