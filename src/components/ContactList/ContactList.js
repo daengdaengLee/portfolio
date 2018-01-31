@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ContactButton from './ContactButton/ContactButton';
+import ContactButton from '../ContactButton/ContactButton';
 
 import contactInfo from './contactInfo';
 

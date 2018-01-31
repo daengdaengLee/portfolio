@@ -1,18 +1,18 @@
-.Portfolio_Menu {
+.Portfolio_MenuButton {
   height: 2.4rem;
   color: gray;
   border: 1px solid darkgray;
   user-select: none;
   font-size: 0.7rem;
 }
-.Portfolio_Menu:hover {
+.Portfolio_MenuButton:hover {
   background-color: darkgray;
   cursor: pointer;
   color: white;
 }
 
 @media (min-width: 576px) {
-  .Portfolio_Menu {
+  .Portfolio_MenuButton {
     font-size: 1rem;
   }
 }

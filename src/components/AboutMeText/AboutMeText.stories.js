@@ -4,6 +4,7 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 
-import Avatar from './Avatar';
+import AboutMeText from './index';
 
-storiesOf('Avatar', module).add('Avatar Component', () => <Avatar />);
+storiesOf('AboutMeText', module)
+.add('AboutMeText Component', () => <AboutMeText />);

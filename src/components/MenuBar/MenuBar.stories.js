@@ -6,9 +6,9 @@ import { linkTo } from '@storybook/addon-links';
 
 import { BrowserRouter } from 'react-router-dom';
 
-import Header from './Header';
+import MenuBar from './MenuBar';
 
-storiesOf('Header', module)
+storiesOf('MenuBar', module)
 .addDecorator((story) => (
   <BrowserRouter>
     <div className="container">
@@ -16,4 +16,4 @@ storiesOf('Header', module)
     </div>
   </BrowserRouter>
 ))
-.add('Header Component', () => <Header />);
+.add('MenuBar Component', () => <MenuBar />);

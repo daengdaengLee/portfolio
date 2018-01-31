@@ -4,12 +4,12 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 
-import MenuBar from './MenuBar';
+import AboutPage from './index';
 
-storiesOf('MenuBar', module)
+storiesOf('AboutPage', module)
 .addDecorator((story) => (
   <div className="container">
     {story()}
   </div>
 ))
-.add('MenuBar Component', () => <MenuBar />);
+.add('AboutPage Component', () => <AboutPage />);
