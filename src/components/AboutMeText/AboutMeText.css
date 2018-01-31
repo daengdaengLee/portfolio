@@ -3,6 +3,10 @@
   font-size: 1.2rem;
 }
 
+.Portfolio_AboutMeText .main {
+  line-height: 1.5;
+}
+
 @media (min-width: 768px) {
   .Portfolio_AboutMeText .heading {
     font-size: 1.4rem;

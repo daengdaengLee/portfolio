@@ -3,6 +3,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 import Header from './Header/Header';
 import ProjectPage from './ProjectPage/ProjectPage';
+import AboutPage from './AboutPage';
 import Footer from './Footer/Footer';
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
           </div>
           <div className="my-5">
             <Route exact path="/portfolio" component={ProjectPage} />
+            <Route path="/portfolio/about" component={AboutPage} />
           </div>
           <div className="mb-5">
             <Footer />

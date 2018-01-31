@@ -13,7 +13,7 @@ function MenuBar() {
         <Link to="/portfolio" className="link"><MenuButton menuName="Projects" /></Link>
       </li>
       <li className="col-3 col-md-2">
-        <MenuButton menuName="About" />
+        <Link to="/portfolio/about" className="link"><MenuButton menuName="About" /></Link>
       </li>
       <li className="col-3 col-md-2">
         <a href="https://daengdaenglee.github.io/" target="_blank" rel="noopener noreferrer" className="link"><MenuButton menuName="Blog" /></a>
