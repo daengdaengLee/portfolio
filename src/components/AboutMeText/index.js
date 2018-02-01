@@ -1,11 +1,14 @@
 import React from 'react';
 
+import Title from '../Title';
 import './AboutMeText.css';
 
 function AboutMeText() {
   return (
     <section className="Portfolio_AboutMeText">
-      <h3 className="heading mb-4">About Me</h3>
+      <div className="heading mb-4">
+        <Title tagName="h3" content="About Me" color="gray" />
+      </div>
       <p className="main">
         새로운 기술을 배우는 것을 좋아하는 웹 프론트엔드 개발자입니다.
         JavaScript와 JavaScript로 구현한 기술을 좋아합니다.
