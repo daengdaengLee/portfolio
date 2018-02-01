@@ -10,17 +10,14 @@ storiesOf('Title', module)
 .add('Title Component h1', () => <Title
   tagName="h1"
   content="h1 Title"
-  size="20px"
 />)
 .add('Title Component h2', () => <Title
   tagName="h2"
   content="h2 Title"
-  color="red"
 />)
 .add('Title Component h3', () => <Title
   tagName="h3"
   content="h3 Title"
-  weight="400"
 />)
 .add('Title Component h4', () => <Title
   tagName="h4"

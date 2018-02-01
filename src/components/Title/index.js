@@ -1,28 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Title({ tagName, content, size, weight, color, height, className }) {
+function Title({ tagName, content, className }) {
   const MyHeader = tagName;
-  const myStyle = {
-    fontSize: size || null,
-    fontWeight: weight || null,
-    color: color || null,
-    lineHeight: height || null,
-  };
   return (
-    <MyHeader style={myStyle} className={className}>
+    <MyHeader className={className}>
       {content}
     </MyHeader>
   );
 }
 
 Title.propTypes = {
-  tagName: PropTypes.string.isRequired,
+  tagName: PropTypes.oneOf(['h1', 'h2', 'h3', 'h4', 'h5', 'h6']).isRequired,
   content: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
-  size: PropTypes.string,
-  weight: PropTypes.string,
-  color: PropTypes.string,
-  lineHeight: PropTypes.string,
   className: PropTypes.string,
 };
 
