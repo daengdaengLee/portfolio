@@ -6,7 +6,7 @@ import { linkTo } from '@storybook/addon-links';
 
 import { BrowserRouter } from 'react-router-dom';
 
-import MenuBar from './MenuBar';
+import MenuBar from './index';
 
 storiesOf('MenuBar', module)
 .addDecorator((story) => (

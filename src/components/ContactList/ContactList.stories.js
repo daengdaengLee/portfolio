@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 
-import ContactList from './ContactList';
+import ContactList from './index';
 
 storiesOf('ContactList', module)
 .addDecorator((story) => (

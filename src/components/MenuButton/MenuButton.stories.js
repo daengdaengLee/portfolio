@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 
-import MenuButton from './MenuButton';
+import MenuButton from './index';
 
 storiesOf('MenuButton', module)
 .addDecorator((story) => (
