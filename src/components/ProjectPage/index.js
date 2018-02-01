@@ -4,10 +4,12 @@ import ProjectCard from '../ProjectCard';
 import Title from '../Title';
 import projectInfo from './projectInfo';
 
+import './ProjectPage.css';
+
 function ProjectPage() {
   return (
     <section className="Portfolio_ProjectPage">
-      <Title tagName="h2" content="Projects" size="2rem" className="text-center py-4" />
+      <Title tagName="h2" content="Projects" className="ProjectPage_Heading text-center py-4" />
       <div className="row mx-0">
         {projectInfo.map(project => (
           <div key={project.id} className="col-md-6 my-5">

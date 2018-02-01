@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+
 import ProjectTitle from '../ProjectTitle';
 import ProjectSynopsis from '../ProjectSynopsis';
 import ProjectLink from '../ProjectLink';

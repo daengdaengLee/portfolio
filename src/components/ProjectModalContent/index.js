@@ -1,25 +1,30 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Thumbnail from '../Thumbnail';
-import ProjectModalDesc from '../ProjectModalDesc';
+import ProjectTitle from '../ProjectTitle';
+import ProjectLink from '../ProjectLink';
 
 function ProjectModalContent({ imgURL, altText, title, desc, pageLink, repoLink }) {
   return (
-    <section className="row mx-0 p-md-4">
-      <div className="col-md-6 py-3">
+    <section className="d-flex flex-column align-items-center">
+      <div className="text-center my-5">
+        <ProjectTitle projectTitle={title} />
+      </div>
+      <div className="w-75">
         <Thumbnail
           imgURL={imgURL}
           altText={altText}
         />
       </div>
-      <div className="col-md-6">
-        <ProjectModalDesc
-          title={title}
-          desc={desc}
+      <div className="my-5">
+        <ProjectLink
           pageLink={pageLink}
           repoLink={repoLink}
         />
       </div>
+      <p className="w-75 mb-5">
+        {desc}
+      </p>
     </section>
   );
 }

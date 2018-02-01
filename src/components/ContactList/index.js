@@ -1,7 +1,6 @@
 import React from 'react';
 
 import ContactButton from '../ContactButton';
-
 import contactInfo from './contactInfo';
 
 function ContactList() {

@@ -5,11 +5,9 @@ import ContactList from '../ContactList';
 import MenuBar from '../MenuBar';
 import PageTitle from '../PageTitle';
 
-import './Header.css';
-
 function Header() {
   return (
-    <header className="Portfolio_Header d-flex flex-column align-items-center">
+    <header className="d-flex flex-column align-items-center">
       <Avatar />
       <div className="my-5">
         <PageTitle />

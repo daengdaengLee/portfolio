@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Image from '../Image';
+
 import './HeaderAvatar.css';
 
 function Avatar() {
