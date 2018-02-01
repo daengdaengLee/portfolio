@@ -1,14 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+
 import Thumbnail from '../Thumbnail';
-import ProjectTitle from '../ProjectTitle';
+import ModalTitle from '../ModalTitle';
 import ProjectLink from '../ProjectLink';
 
 function ProjectModalContent({ imgURL, altText, title, desc, pageLink, repoLink }) {
   return (
     <section className="d-flex flex-column align-items-center">
-      <div className="text-center my-5">
-        <ProjectTitle projectTitle={title} />
+      <div className="my-5">
+        <ModalTitle content={title} />
       </div>
       <div className="w-75">
         <Thumbnail
