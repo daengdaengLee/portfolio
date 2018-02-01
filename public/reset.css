@@ -59,7 +59,7 @@ html {
 }
 
 /* google font: source sans pro */
-* {
-  font-family: 'Source Sans Pro', sans-serif !important;
-  font-weight: 300 !important;
+*, html, body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
 }
