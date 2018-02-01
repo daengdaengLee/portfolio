@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-import Header from './Header/Header';
-import ProjectPage from './ProjectPage/ProjectPage';
+import Header from './Header';
+import ProjectPage from './ProjectPage';
 import AboutPage from './AboutPage';
-import Footer from './Footer/Footer';
+import Footer from './Footer';
 
 class App extends Component {
   render() {

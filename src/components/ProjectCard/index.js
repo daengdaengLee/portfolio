@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import ProjectDesc from '../ProjectDesc/ProjectDesc';
-import Thumbnail from '../Thumbnail/Thumbnail';
-import ProjectModal from '../ProjectModal/ProjectModal';
+import ProjectDesc from '../ProjectDesc';
+import Thumbnail from '../Thumbnail';
+import ProjectModal from '../ProjectModal';
 import './ProjectCard.css';
 
 class ProjectCard extends Component {
