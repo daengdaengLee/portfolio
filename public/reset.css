@@ -63,3 +63,8 @@ html {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
 }
+
+/* custom line-height */
+html, body {
+	line-height: 1.5;
+}
