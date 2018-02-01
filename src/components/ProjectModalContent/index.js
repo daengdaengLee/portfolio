@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import Thumbnail from '../Thumbnail';
 import ModalTitle from '../ModalTitle';
-import ProjectLink from '../ProjectLink';
+import ModalLink from '../ModalLink';
 
 function ProjectModalContent({ imgURL, altText, title, desc, pageLink, repoLink }) {
   return (
@@ -17,8 +17,8 @@ function ProjectModalContent({ imgURL, altText, title, desc, pageLink, repoLink 
           altText={altText}
         />
       </div>
-      <div className="my-5">
-        <ProjectLink
+      <div className="my-5 pt-3 w-75">
+        <ModalLink
           pageLink={pageLink}
           repoLink={repoLink}
         />
