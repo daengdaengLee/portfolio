@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Title({ tagName, content, size, weight, color, height }) {
+function Title({ tagName, content, size, weight, color, height, className }) {
   const MyHeader = tagName;
   const myStyle = {
-    fontSize: size || 'inherit',
-    fontWeight: weight || 'inherit',
-    color: color || 'inherit',
-    lineHeight: height || 'inherit',
+    fontSize: size || null,
+    fontWeight: weight || null,
+    color: color || null,
+    lineHeight: height || null,
   };
   return (
-    <MyHeader style={myStyle}>
+    <MyHeader style={myStyle} className={className}>
       {content}
     </MyHeader>
   );
@@ -22,6 +22,8 @@ Title.propTypes = {
   size: PropTypes.string,
   weight: PropTypes.string,
   color: PropTypes.string,
+  lineHeight: PropTypes.string,
+  className: PropTypes.string,
 };
 
 export default Title;
