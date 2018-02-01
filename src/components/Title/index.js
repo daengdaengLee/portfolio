@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Title({ tagName, content, size, weight, color }) {
+function Title({ tagName, content, size, weight, color, height }) {
   const MyHeader = tagName;
   const myStyle = {
     fontSize: size || 'inherit',
     fontWeight: weight || 'inherit',
     color: color || 'inherit',
+    lineHeight: height || 'inherit',
   };
   return (
     <MyHeader style={myStyle}>
