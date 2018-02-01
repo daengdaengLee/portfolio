@@ -18,7 +18,7 @@ function Title({ tagName, content, size, weight, color, height, className }) {
 
 Title.propTypes = {
   tagName: PropTypes.string.isRequired,
-  content: PropTypes.string.isRequired,
+  content: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
   size: PropTypes.string,
   weight: PropTypes.string,
   color: PropTypes.string,
