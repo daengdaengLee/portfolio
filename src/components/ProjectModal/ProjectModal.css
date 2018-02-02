@@ -1,16 +1,25 @@
-.Portfolio_ProjectModal {
-  position: absolute;
-  top: 40px;
+.Portfolio_ProjectModal_Overlay {
+  position: fixed;
+  top: 0;
   left: 0;
   right: 0;
-  bottom: 40px;
-  width: 60%;
-  margin: auto;
-  border: 1px solid #ccc;
-  background: #fff;
+  min-height: 100%;
+  background-color: rgba(255, 255, 255, 0.75);
   overflow: auto;
   -webkit-overflow-scrolling: touch;
-  border-radius: 4px;
-  outline: none;
+}
+
+.Portfolio_ProjectModal_Content {
+  position: absolute;
+  top: 10rem;
+  left: 0;
+  right: 0;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 10rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  background: #fff;
+  outline: 0;
   padding: 20px;
 }
