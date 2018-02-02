@@ -3,6 +3,7 @@ import React from 'react';
 import AboutMe from '../AboutMe';
 import AboutSkills from '../AboutSkills';
 import Title from '../Title';
+import CareerCard from '../CareerCard';
 
 import './AboutPage.css';
 
@@ -13,7 +14,10 @@ function AboutPage() {
       <div className="mb-4">
         <AboutMe />
       </div>
-      <AboutSkills />
+      <div className="mb-4">
+        <AboutSkills />
+      </div>
+      <CareerCard />
     </section>
   );
 }
