@@ -5,13 +5,15 @@ import Thumbnail from '../Thumbnail';
 import ModalTitle from '../ModalTitle';
 import ModalLink from '../ModalLink';
 
+import './ProjectModalContent.css';
+
 function ProjectModalContent({ imgURL, altText, title, desc, pageLink, repoLink }) {
   return (
-    <section className="d-flex flex-column align-items-center">
+    <section className="Portfolio_ProjectModalContent d-flex flex-column align-items-center">
       <div className="mb-3 my-md-5">
         <ModalTitle content={title} />
       </div>
-      <div className="mb-3 mb-md-5 w-50">
+      <div className="ProjectModalContent_ModalLink mb-3 mb-md-5">
         <ModalLink
           pageLink={pageLink}
           repoLink={repoLink}

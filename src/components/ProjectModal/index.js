@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 
 import ProjectModalContent from '../ProjectModalContent';
 
+import './ProjectModal.css';
+
 ReactModal.setAppElement('#root');
 
 function ProjectModal({ isOpen, contentLabel, onRequestClose, imgURL, altText, title, desc, pageLink, repoLink }) {
@@ -13,6 +15,7 @@ function ProjectModal({ isOpen, contentLabel, onRequestClose, imgURL, altText, t
       contentLabel={contentLabel}
       onRequestClose={onRequestClose}
       bodyOpenClassName="modal-open"
+      className="Portfolio_ProjectModal"
     >
       <ProjectModalContent
         imgURL={imgURL}

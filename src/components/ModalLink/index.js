@@ -7,8 +7,8 @@ import './ModalLink.css';
 
 function ModalLink({ pageLink, repoLink }) {
   return (
-    <ul className="Portfolio_ModalLink">
-      <li className="mb-3">
+    <ul className="Portfolio_ModalLink w-100 d-flex justify-content-between flex-md-column justify-content-md-start">
+      <li className="mb-md-3">
         <a href={pageLink} target="_blank" className="ModalLink_Link">
           <Button buttonName="Project Page" />
         </a>

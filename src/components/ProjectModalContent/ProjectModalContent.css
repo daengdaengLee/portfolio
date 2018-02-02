@@ -1,0 +1,9 @@
+.Portfolio_ProjectModalContent .ProjectModalContent_ModalLink {
+  width: 80%;
+}
+
+@media (min-width: 992px) {
+  .Portfolio_ProjectModalContent .ProjectModalContent_ModalLink {
+    width: 50%;
+  }
+}
