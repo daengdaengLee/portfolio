@@ -11,19 +11,19 @@ function ProjectModalContent({ imgURL, altText, title, desc, pageLink, repoLink 
       <div className="my-5">
         <ModalTitle content={title} />
       </div>
+      <div className="mb-5 w-50">
+        <ModalLink
+          pageLink={pageLink}
+          repoLink={repoLink}
+        />
+      </div>
       <div className="w-75">
         <Thumbnail
           imgURL={imgURL}
           altText={altText}
         />
       </div>
-      <div className="my-5 pt-3 w-75">
-        <ModalLink
-          pageLink={pageLink}
-          repoLink={repoLink}
-        />
-      </div>
-      <p className="w-75 mb-5">
+      <p className="w-75 mt-5">
         {desc}
       </p>
     </section>
