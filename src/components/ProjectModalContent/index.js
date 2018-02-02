@@ -8,10 +8,10 @@ import ModalLink from '../ModalLink';
 function ProjectModalContent({ imgURL, altText, title, desc, pageLink, repoLink }) {
   return (
     <section className="d-flex flex-column align-items-center">
-      <div className="my-5">
+      <div className="mb-3 my-md-5">
         <ModalTitle content={title} />
       </div>
-      <div className="mb-5 w-50">
+      <div className="mb-3 mb-md-5 w-50">
         <ModalLink
           pageLink={pageLink}
           repoLink={repoLink}
@@ -23,7 +23,7 @@ function ProjectModalContent({ imgURL, altText, title, desc, pageLink, repoLink 
           altText={altText}
         />
       </div>
-      <p className="w-75 mt-5">
+      <p className="w-75 mt-4 mt-md-5">
         {desc}
       </p>
     </section>
