@@ -1,3 +1,10 @@
 .Portfolio_ModalTitle {
+  font-size: 1.2rem;
   color: gray;
+}
+
+@media (min-width: 992px) {
+  .Portfolio_ModalTitle {
+    font-size: 2.8rem;
+  }
 }
