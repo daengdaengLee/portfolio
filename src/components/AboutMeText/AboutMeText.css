@@ -3,10 +3,6 @@
   color: gray;
 }
 
-.Portfolio_AboutMeText .AboutMeText_Main {
-  line-height: 1.5;
-}
-
 @media (min-width: 768px) {
   .Portfolio_AboutMeText .AboutMeText_Heading {
     font-size: 1.4rem;
