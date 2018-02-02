@@ -2,6 +2,6 @@
   font-size: 1.8rem;
   line-height: 2.3rem;
 }
-.Portfolio_PageTitle strong {
+.Portfolio_PageTitle .PageTitle_Highlight {
   color: gray;
 }

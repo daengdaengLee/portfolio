@@ -6,7 +6,7 @@ import { linkTo } from '@storybook/addon-links';
 
 import { BrowserRouter } from 'react-router-dom';
 
-import Header from './Header';
+import Header from './index';
 
 storiesOf('Header', module)
 .addDecorator((story) => (

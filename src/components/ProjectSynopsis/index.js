@@ -1,5 +1,6 @@
 import React from 'react';
 import LinesEllipsis from 'react-lines-ellipsis';
+
 import './ProjectSynopsis.css';
 
 function ProjectSynopsis({ projectDesc }) {

@@ -5,13 +5,13 @@
   margin: 4rem;
   border-top: 1px solid gray;
 }
-.Portfolio_Footer .FooterText {
+.Portfolio_Footer .Footer_Text {
   font-size: 1.2rem;
 }
-.Portfolio_Footer .FooterText .FooterLink {
+.Portfolio_Footer .Footer_Text .Footer_Link {
   text-decoration: none;
   color: gray;
 }
-.Portfolio_Footer .FooterText .FooterLink:hover {
+.Portfolio_Footer .Footer_Text .Footer_Link:hover {
   color: darkgray;
 }

@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import ProjectDesc from '../ProjectDesc/ProjectDesc';
-import Thumbnail from '../Thumbnail/Thumbnail';
-import ProjectModal from '../ProjectModal/ProjectModal';
+
+import ProjectDesc from '../ProjectDesc';
+import Thumbnail from '../Thumbnail';
+import ProjectModal from '../ProjectModal';
+
 import './ProjectCard.css';
 
 class ProjectCard extends Component {
@@ -20,7 +22,7 @@ class ProjectCard extends Component {
     return (
       <div>
         <section className="Portfolio_ProjectCard row mx-0" onClick={_openModal}>
-          <div className="col-md-6 thumbnail">
+          <div className="col-md-6 ProjectCard_Thumbnail">
             <Thumbnail
               imgURL={imgURL}
               altText={altText}

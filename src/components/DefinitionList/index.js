@@ -3,10 +3,6 @@ import PropTypes from 'prop-types';
 
 class DefinitionList extends Component {
 
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { listInfo } = this.props;
     const { _makeList } = this;

@@ -1,5 +1,7 @@
 import React from 'react';
-import ProjectCard from '../ProjectCard/ProjectCard';
+
+import ProjectCard from '../ProjectCard';
+import Title from '../Title';
 import projectInfo from './projectInfo';
 
 import './ProjectPage.css';
@@ -7,7 +9,7 @@ import './ProjectPage.css';
 function ProjectPage() {
   return (
     <section className="Portfolio_ProjectPage">
-      <h2 className="headingText text-center py-4">Projects</h2>
+      <Title tagName="h2" content="Projects" className="ProjectPage_Heading text-center py-4" />
       <div className="row mx-0">
         {projectInfo.map(project => (
           <div key={project.id} className="col-md-6 my-5">

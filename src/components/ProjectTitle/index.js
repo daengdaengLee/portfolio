@@ -1,10 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+
+import Title from '../Title';
+
 import './ProjectTitle.css';
 
 function ProjectTitle({ projectTitle }) {
   return (
-    <h3 className="Portfolio_ProjectTitle">{projectTitle}</h3>
+    <Title tagName="h3" content={projectTitle} className="Portfolio_ProjectTitle" />
   );
 }
 

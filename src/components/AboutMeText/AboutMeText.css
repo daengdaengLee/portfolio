@@ -1,18 +1,18 @@
-.Portfolio_AboutMeText .heading {
-  color: gray;
+.Portfolio_AboutMeText .AboutMeText_Heading {
   font-size: 1.2rem;
+  color: gray;
 }
 
-.Portfolio_AboutMeText .main {
+.Portfolio_AboutMeText .AboutMeText_Main {
   line-height: 1.5;
 }
 
 @media (min-width: 768px) {
-  .Portfolio_AboutMeText .heading {
+  .Portfolio_AboutMeText .AboutMeText_Heading {
     font-size: 1.4rem;
   }
   
-  .Portfolio_AboutMeText .main {
+  .Portfolio_AboutMeText .AboutMeText_Main {
     font-size: 1.2rem;
   }
 }

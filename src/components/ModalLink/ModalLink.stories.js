@@ -4,10 +4,10 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 
-import ProjectLink from './index';
+import ModalLink from './index';
 
-storiesOf('ProjectLink', module)
-.add('ProjectLink Component', () => <ProjectLink
+storiesOf('ModalLink', module)
+.add('ModalLink Component', () => <ModalLink
   pageLink="https://daengdaenglee.github.io/portfolio"
   repoLink="https://github.com"
 />);

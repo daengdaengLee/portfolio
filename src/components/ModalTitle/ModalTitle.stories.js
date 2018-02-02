@@ -4,9 +4,9 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 
-import ProjectTitle from './index';
+import ModalTitle from './index';
 
-storiesOf('ProjectTitle', module)
-.add('ProjectTitle Component', () => <ProjectTitle
-  projectTitle="Web Calculator"
+storiesOf('ModalTitle', module)
+.add('ModalTitle Component', () => <ModalTitle
+  content="Web Calculator"
 />);

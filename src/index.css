@@ -60,7 +60,12 @@ html {
 
 /* google font: source sans pro */
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
-* {
-  font-family: 'Source Sans Pro', sans-serif !important;
-  font-weight: 300 !important;
+*, html, body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+
+/* custom line-height */
+html, body {
+	line-height: 1.5;
 }
