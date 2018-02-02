@@ -1,4 +1,4 @@
-.Portfolio_ProjectModal {
+.Portfolio_ProjectModal_Content {
   position: absolute;
   top: 40px;
   left: 0;
@@ -6,11 +6,11 @@
   bottom: 40px;
   width: 60%;
   margin: auto;
-  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
   background: #fff;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
-  border-radius: 4px;
-  outline: none;
+  outline: 0;
   padding: 20px;
 }

@@ -3,6 +3,7 @@ import ReactModal from 'react-modal';
 import PropTypes from 'prop-types';
 
 import ProjectModalContent from '../ProjectModalContent';
+import Button from '../Button';
 
 import './ProjectModal.css';
 
@@ -15,7 +16,7 @@ function ProjectModal({ isOpen, contentLabel, onRequestClose, imgURL, altText, t
       contentLabel={contentLabel}
       onRequestClose={onRequestClose}
       bodyOpenClassName="modal-open"
-      className="Portfolio_ProjectModal"
+      className="Portfolio_ProjectModal_Content"
     >
       <ProjectModalContent
         imgURL={imgURL}
@@ -25,6 +26,11 @@ function ProjectModal({ isOpen, contentLabel, onRequestClose, imgURL, altText, t
         pageLink={pageLink}
         repoLink={repoLink}
       />
+      <div className="d-flex justify-content-center my-3 my-md-5">
+        <div className="w-50" onClick={onRequestClose}>
+          <Button buttonName="Close" />
+        </div>
+      </div>
     </ReactModal>
   );
 }
