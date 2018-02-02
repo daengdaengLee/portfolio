@@ -5,7 +5,7 @@ import './Button.css';
 
 function Button({ buttonName }) {
   return (
-    <div className="Portfolio_Button rounded w-100 d-inline-flex justify-content-center align-items-center">
+    <div className="Portfolio_Button rounded w-100 d-inline-flex justify-content-center align-items-center p-1">
       {buttonName}
     </div>
   );
