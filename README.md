@@ -10,7 +10,7 @@
 
 ## 0. 안녕하세요?
 
-![프로필 이미지](https://user-images.githubusercontent.com/30795415/35864421-1954ca9c-0b95-11e8-970d-e894fef5c47e.jpg)
+![프로필 이미지](https://user-images.githubusercontent.com/30795415/35864625-a56d31b8-0b95-11e8-912e-62069d54cd13.jpg)
 
 - **이건호** Kunho Lee
 - 연락처
