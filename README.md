@@ -1,3 +1,14 @@
+<!--
+  아래 문서는
+
+    https://github.com/daengdaengLee/portfolio/blob/master/README.md
+  
+  에서 랜더링된 화면을 볼 수 있습니다.
+
+  위 깃허브 페이지의 문서에는 dummy 휴대전화 번호를 적었습니다.
+  제 휴대전화 번호는 직접 제출한 파일에만 적었습니다.
+  이 점 착오 없으시길 바랍니다.
+-->
 # Coffee & Coding, Everyday
 
 진하게 내린 커피를 마시며 하루종일 코딩하길 좋아합니다.
@@ -7,6 +18,7 @@
 0. [안녕하세요?](#0-안녕하세요)
 1. [뭘 할 수 있을까요?](#1-뭘-할-수-있을까요)
 2. [뭘 만들었을까요?](#2-뭘-만들었을까요)
+3. [마치며](#마치며)
 
 ## 0. 안녕하세요?
 
@@ -14,7 +26,7 @@
 
 **이건호** Kunho Lee
 
-- phone: 010-1111-1111
+- phone: 010-1111-1111(dummy)
 - mail: <gunho1020@gmail.com>
 - github: [daengdaengLee](https://github.com/daengdaengLee)
 - facebook: [gunho lee](https://www.facebook.com/gunho.lee.566)
@@ -76,3 +88,9 @@ JavaScript 의 setInterval 메소드와 clearInterval 메소드를 이용해 타
 React 프레임워크를 이용해 화면을 구성했습니다.
 
 YTS torrents 에서 제공하는 Web API 를 통해 영화 차트 정보를 가져옵니다.
+
+## 3. 마치며
+
+끝까지 읽어주셔서 감사합니다! 더 궁금한 점이 있으면 <gunho1020@gmail.com>이나 010-1111-1111(dummy)로 연락주세요.
+
+맨 처음으로 돌아가고 싶으시면 [여기](#둘러보기)를 클릭해주세요.
