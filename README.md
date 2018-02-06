@@ -47,3 +47,32 @@
 ## 2. 뭘 만들었을까요?
 
 ### 웹 계산기
+
+![웹 계산기](https://user-images.githubusercontent.com/30795415/35865329-900e7d5c-0b97-11e8-9648-98698976957b.jpg)
+
+- [Demo Page](https://daengdaenglee.github.io/calculator_with_vuejs/)
+- [Repository](https://github.com/daengdaengLee/calculator_with_vuejs)
+
+Vue.js 프레임워크를 이용해 만든 웹 계산기입니다. Vuex 를 이용하여 상태를 관리하고 있습니다.
+
+### 웹 토마토 시계
+
+![웹 토마토 시계](https://user-images.githubusercontent.com/30795415/35865341-97db34bc-0b97-11e8-863a-663b8260ecc9.jpg)
+
+- [Demo Page](https://daengdaenglee.github.io/pomodoro_clock_vuejs/)
+- [Repository](https://github.com/daengdaengLee/pomodoro_clock_vuejs)
+
+Vue.js 프레임워크를 이용해 만든 웹 토마토 시계입니다. Vuex 를 이용하여 상태를 관리합니다.
+
+JavaScript 의 setInterval 메소드와 clearInterval 메소드를 이용해 타이머 기능을 구현했습니다.
+
+### 영화 차트 앱
+
+![영화 차트 앱](https://user-images.githubusercontent.com/30795415/35865347-9beca7fc-0b97-11e8-8007-98511c27890d.jpg)
+
+- [Demo Page](https://daengdaenglee.github.io/movie_app_react/)
+- [Repository](https://github.com/daengdaengLee/movie_app_react)
+
+React 프레임워크를 이용해 화면을 구성했습니다.
+
+YTS torrents 에서 제공하는 Web API 를 통해 영화 차트 정보를 가져옵니다.
