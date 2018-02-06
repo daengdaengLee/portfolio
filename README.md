@@ -6,6 +6,7 @@
 
 0. [안녕하세요?](#0-안녕하세요)
 1. [뭘 할 수 있을까요?](#1-뭘-할-수-있을까요)
+2. [뭘 만들었을까요?](#2-뭘-만들었을까요)
 
 ## 0. 안녕하세요?
 
@@ -23,24 +24,26 @@
 ## 1. 뭘 할 수 있을까요?
 
 - **프론트엔드 기술** Front-end Skills
-  - ![HTML]()
-  - ![CSS]()
-  - ![JavaScript]()
-    - ![jQuery]()
-    - ![React]()
-    - ![Vue.js]()
+  - [HTML](https://www.w3.org/html/)
+  - [CSS](https://www.w3.org/Style/CSS/)
+  - [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript)
+    - [jQuery](https://jquery.com/)
+    - [React](https://reactjs.org/)
+    - [Vue.js](https://vuejs.org/)
 
 - **백엔드 기술** Bacn-end Skills
-  - ![Node.js]()
-    - ![Express.js]()
+  - [Node.js](https://nodejs.org/en/)
+    - [Express.js](https://expressjs.com/)
 
 - **협업 툴**
-  - ![Git](https://user-images.githubusercontent.com/30795415/35840776-9bd6cb78-0b3b-11e8-9a53-19d44e3932ec.gif)
-  - ![Github](https://user-images.githubusercontent.com/30795415/35840732-6bd5fd4a-0b3b-11e8-8d5d-461d686d94f3.png)
+  - [Git](https://git-scm.com/)
+  - [Github](https://github.com/)
 
 - **공부하고 있어요!**
-  - ![AWS]()
-  - ![Docker]()
-  - ![Django]()
+  - [AWS](https://aws.amazon.com/)
+  - [Docker](https://www.docker.com/)
+  - [Django](https://www.djangoproject.com/)
 
-## 2. 
+## 2. 뭘 만들었을까요?
+
+### 웹 계산기
