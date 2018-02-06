@@ -25,7 +25,7 @@ function ProjectModalContent({ imgURL, altText, title, desc, pageLink, repoLink 
           altText={altText}
         />
       </div>
-      <p className="w-75 mt-4 mt-md-5">
+      <p className="ProjectModalContent_Desc w-75 mt-4 mt-md-5">
         {desc}
       </p>
     </section>
