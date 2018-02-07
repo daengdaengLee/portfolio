@@ -10,7 +10,7 @@ const dummyText ='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
 
 storiesOf('ProjectModalContent', module)
 .addDecorator((story) => (
-  <div style={{ width: '40rem', margin: '5rem', border: '1px solid red' }}>
+  <div style={{ width: '45rem', margin: '5rem', border: '1px solid red' }}>
     {story()}
   </div>
 ))
@@ -21,4 +21,5 @@ storiesOf('ProjectModalContent', module)
   desc={dummyText}
   repoLink="https://github.com"
   pageLink="https://google.com"
+  onRequestClose={() => alert('close requested')}
 />);

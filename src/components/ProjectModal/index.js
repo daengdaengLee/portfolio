@@ -3,7 +3,6 @@ import ReactModal from 'react-modal';
 import PropTypes from 'prop-types';
 
 import ProjectModalContent from '../ProjectModalContent';
-import Button from '../Button';
 
 import './ProjectModal.css';
 
@@ -45,12 +44,8 @@ class ProjectModal extends Component {
           desc={desc}
           pageLink={pageLink}
           repoLink={repoLink}
+          onRequestClose={onRequestClose}
         />
-        <div className="d-flex justify-content-center my-3 my-md-5">
-          <div className="w-50" onClick={onRequestClose}>
-            <Button buttonName="Close" />
-          </div>
-        </div>
       </ReactModal>
     );
   }

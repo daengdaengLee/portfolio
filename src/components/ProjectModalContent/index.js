@@ -4,30 +4,40 @@ import PropTypes from 'prop-types';
 import Thumbnail from '../Thumbnail';
 import ModalTitle from '../ModalTitle';
 import ModalLink from '../ModalLink';
+import Button from '../Button';
 
 import './ProjectModalContent.css';
 
-function ProjectModalContent({ imgURL, altText, title, desc, pageLink, repoLink }) {
+function ProjectModalContent({ imgURL, altText, title, desc, pageLink, repoLink, onRequestClose }) {
   return (
-    <section className="Portfolio_ProjectModalContent d-flex flex-column align-items-center">
-      <div className="mb-3 my-md-5">
-        <ModalTitle content={title} />
+    <section className="Portfolio_ProjectModalContent p-3 p-md-5">
+      <div className="mb-3 mb-md-5">
+        <ModalTitle content={title} onRequestClose={onRequestClose} />
       </div>
-      <div className="ProjectModalContent_ModalLink mb-3 mb-md-5">
-        <ModalLink
-          pageLink={pageLink}
-          repoLink={repoLink}
-        />
+      <div className="row mx-0">
+        <div className="col-md-6 mb-3 mb-md-0">
+          <Thumbnail
+            imgURL={imgURL}
+            altText={altText}
+          />
+        </div>
+        <div className="col-md-6 py-3">
+          <div className="ProjectModalContent_ModalLink w-100 mb-3 mb-3 mb-md-5">
+            <ModalLink
+              pageLink={pageLink}
+              repoLink={repoLink}
+            />
+          </div>
+          <p className="ProjectModalContent_Desc">
+            {desc}
+          </p>
+        </div>
       </div>
-      <div className="w-75">
-        <Thumbnail
-          imgURL={imgURL}
-          altText={altText}
-        />
+      <div className="d-flex justify-content-end mt-3 mt-md-5">
+        <div className="w-25" onClick={onRequestClose}>
+          <Button buttonName="Close" />
+        </div>
       </div>
-      <p className="ProjectModalContent_Desc w-75 mt-4 mt-md-5">
-        {desc}
-      </p>
     </section>
   );
 }
@@ -39,6 +49,7 @@ ProjectModalContent.propTypes = {
   desc: PropTypes.string.isRequired,
   pageLink: PropTypes.string.isRequired,
   repoLink: PropTypes.string.isRequired,
+  onRequestClose: PropTypes.func.isRequired,
 };
 
 export default ProjectModalContent;
