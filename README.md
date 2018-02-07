@@ -31,6 +31,7 @@
 - mail: <gunho1020@gmail.com>
 - github: [daengdaengLee](https://github.com/daengdaengLee)
 - facebook: [gunho lee](https://www.facebook.com/gunho.lee.566)
+- portfolio: [portfolio page](https://daengdaenglee.github.io/portfolio/)
 
 취미로 시작한 코딩에 푹 빠져버린 개발자입니다. 웹에서 동작하는 앱을 다룹니다.
 
