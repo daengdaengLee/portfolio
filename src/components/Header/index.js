@@ -1,14 +1,11 @@
 import React from 'react';
 
-import Avatar from '../HeaderAvatar';
-import ContactList from '../ContactList';
-import MenuBar from '../MenuBar';
-import PageTitle from '../PageTitle';
+import { HeaderAvatar, ContactList, MenuBar, PageTitle } from '../';
 
 function Header() {
   return (
     <header className="d-flex flex-column align-items-center">
-      <Avatar />
+      <HeaderAvatar />
       <div className="my-5">
         <PageTitle />
       </div>

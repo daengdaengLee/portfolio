@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ContactButton from '../ContactButton';
+import { ContactButton } from '../';
 import contactInfo from './contactInfo';
 
 function ContactList() {
