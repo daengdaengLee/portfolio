@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-import Header from './Header';
-import ProjectPage from './ProjectPage';
-import AboutPage from './AboutPage';
-import Footer from './Footer';
+import { Header, ProjectPage, AboutPage, Footer } from '../';
 
 class App extends Component {
   render() {

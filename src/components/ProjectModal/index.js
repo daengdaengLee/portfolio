@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactModal from 'react-modal';
 import PropTypes from 'prop-types';
 
-import ProjectModalContent from '../ProjectModalContent';
+import { ProjectModalContent } from '../';
 
 import './ProjectModal.css';
 

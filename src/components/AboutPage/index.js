@@ -1,9 +1,6 @@
 import React from 'react';
 
-import AboutMe from '../AboutMe';
-import AboutSkills from '../AboutSkills';
-import Title from '../Title';
-import CareerCard from '../CareerCard';
+import { AboutMe, AboutSkills, Title, CareerCard } from '../';
 
 import './AboutPage.css';
 

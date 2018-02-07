@@ -1,7 +1,6 @@
 import React from 'react';
 
-import DefinitionList from '../DefinitionList';
-import Title from '../Title';
+import { DefinitionList, Title,  } from '../';
 import listInfo from './listInfo';
 
 import './AboutSkills.css';
