@@ -9,4 +9,5 @@ import ModalTitle from './index';
 storiesOf('ModalTitle', module)
 .add('ModalTitle Component', () => <ModalTitle
   content="Web Calculator"
+  onRequestClose={() => alert('close requested')}
 />);
