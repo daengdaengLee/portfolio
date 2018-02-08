@@ -1,21 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Button } from '../';
-
-import './ModalLink.css';
+import { TextButton } from '../';
 
 function ModalLink({ pageLink, repoLink }) {
   return (
-    <ul className="Portfolio_ModalLink row mx-0">
-      <li className="col-md-6 mb-3 mb-md-0">
+    <ul className="d-flex justify-content-around">
+      <li>
         <a href={pageLink} target="_blank" className="ModalLink_Link">
-          <Button buttonName="Project Page" />
+          <TextButton text="Project Page" />
         </a>
       </li>
-      <li className="col-md-6">
+      <li>
         <a href={repoLink} target="_blank" className="ModalLink_Link">
-          <Button buttonName="Project Repo" />
+          <TextButton text="Project Repo" />
         </a>
       </li>
     </ul>
