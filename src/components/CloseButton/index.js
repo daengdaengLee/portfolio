@@ -4,9 +4,9 @@ import { Button } from '../';
 
 import './CloseButton.css';
 
-function CloseButton() {
+function CloseButton({ ...remainProps }) {
   return (
-    <Button className="Portfolio_CloseButton d-inline-flex justify-content-center align-items-center">
+    <Button className="Portfolio_CloseButton d-inline-flex justify-content-center align-items-center" {...remainProps}>
       &times;
     </Button>
   );
