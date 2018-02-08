@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Thumbnail, ModalTitle, ModalLink, Button } from '../';
+import { Thumbnail, ModalTitle, ModalLink, TextButton } from '../';
 
 import './ProjectModalContent.css';
 
@@ -19,21 +19,18 @@ function ProjectModalContent({ imgURL, altText, title, desc, pageLink, repoLink,
           />
         </div>
         <div className="col-md-6 py-3">
-          <div className="ProjectModalContent_ModalLink w-100 mb-3 mb-3 mb-md-5">
-            <ModalLink
-              pageLink={pageLink}
-              repoLink={repoLink}
-            />
-          </div>
+          <ModalLink
+            pageLink={pageLink}
+            repoLink={repoLink}
+            className="mb-3 mb-3 mb-md-5"
+          />
           <p className="ProjectModalContent_Desc">
             {desc}
           </p>
         </div>
       </div>
       <div className="d-flex justify-content-end mt-3 mt-md-5">
-        <div className="w-25" onClick={onRequestClose}>
-          <Button buttonName="Close" />
-        </div>
+        <TextButton text="Close" className="w-25" onClick={onRequestClose} />
       </div>
     </section>
   );
