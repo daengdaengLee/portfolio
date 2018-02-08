@@ -3,9 +3,10 @@ import PropTypes from 'prop-types';
 
 import { TextButton } from '../';
 
-function ModalLink({ pageLink, repoLink }) {
+function ModalLink({ pageLink, repoLink, className }) {
+  const ownClassName = 'd-flex justify-content-around';
   return (
-    <ul className="d-flex justify-content-around">
+    <ul className={className ? `${ownClassName} ${className}` : ownClassName}>
       <li>
         <a href={pageLink} target="_blank" className="ModalLink_Link">
           <TextButton text="Project Page" />
