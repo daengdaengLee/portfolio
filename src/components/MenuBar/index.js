@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom';
 
 import { TextButton } from '../';
 
-import './MenuBar.css';
-
 function MenuButton({ menuName }) {
   return (
     <TextButton text={menuName} className="w-100" />
@@ -14,19 +12,19 @@ function MenuButton({ menuName }) {
 
 function MenuBar() {
   return (
-    <ul className="Portfolio_MenuBar row justify-content-center w-100 mx-0">
+    <ul className="row justify-content-center w-100 mx-0">
       <li className="col-3 col-md-2">
-        <Link to="/portfolio" className="MenuBar_Link">
+        <Link to="/portfolio">
           <MenuButton menuName="Projects" />
         </Link>
       </li>
       <li className="col-3 col-md-2">
-        <Link to="/portfolio/about" className="MenuBar_Link">
+        <Link to="/portfolio/about">
           <MenuButton menuName="About" />
         </Link>
       </li>
       <li className="col-3 col-md-2">
-        <a href="https://daengdaenglee.github.io/" target="_blank" rel="noopener noreferrer" className="MenuBar_Link">
+        <a href="https://daengdaenglee.github.io/" target="_blank" rel="noopener noreferrer">
           <MenuButton menuName="Blog" />
         </a>
       </li>
