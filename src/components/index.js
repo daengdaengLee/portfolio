@@ -26,6 +26,7 @@ import ProjectModalContent from './ProjectModalContent';
 import ProjectPage from './ProjectPage';
 import ProjectSynopsis from './ProjectSynopsis';
 import ProjectTitle from './ProjectTitle';
+import TextButton from './TextButton';
 import Thumbnail from './Thumbnail';
 import Title from './Title';
 
@@ -58,6 +59,7 @@ export {
   ProjectPage,
   ProjectSynopsis,
   ProjectTitle,
+  TextButton,
   Thumbnail,
   Title,
 };
