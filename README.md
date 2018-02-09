@@ -71,7 +71,7 @@
 - [Demo Page](https://daengdaenglee.github.io/portfolio/)
 - [Repository](https://github.com/daengdaengLee/portfolio)
 
-React 를 이용해 화면을 구성한 포트폴리오 페이지입니다. react-router 를 이용하여 SPA 를 구현했습니다.
+React 를 이용해 화면을 구성한 포트폴리오 페이지입니다. react-router 를 이용하여 SPA 를 구현했습니다. [spa-github-pages](https://github.com/rafrex/spa-github-pages) 를 이용해 정적 호스팅만 제공하는 github page 에서도 SPA 가 잘 동작하도록 설정했습니다.
 
 화면 레이아웃 구성을 위해 Bootstrap 을 이용했습니다. 주로 사용한 기능은 `row`, `col`, `d-flex`입니다.
 
