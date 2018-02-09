@@ -7,11 +7,9 @@ import './ModalTitle.css';
 
 function ModalTitle({ content, onRequestClose }) {
   return (
-    <div className="Portfolio_ModalTitle d-flex justify-content-between">
+    <div className="Portfolio_ModalTitle d-flex justify-content-between align-items-center">
       <Title tagName="h4" content={content} className="ModalTitle_Title" />
-      <div onClick={onRequestClose} className="d-inline-flex align-items-center">
-        <CloseButton />
-      </div>
+      <CloseButton onClick={onRequestClose} />
     </div>
   );
 }

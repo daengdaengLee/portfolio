@@ -1,18 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import './Button.css';
-
-function Button({ buttonName }) {
+function Button({ type, className, children, ...remainProps }) {
   return (
-    <div className="Portfolio_Button rounded w-100 d-inline-flex justify-content-center align-items-center p-1">
-      {buttonName}
-    </div>
+    <button type={type} className={className} {...remainProps}>
+      {children}
+    </button>
   );
 }
 
 Button.propTypes = {
-  buttonName: PropTypes.string.isRequired,
+  type: PropTypes.string,
+  className: PropTypes.string,
+  children: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
+};
+
+Button.defaultProps = {
+  type: 'button',
 };
 
 export default Button;

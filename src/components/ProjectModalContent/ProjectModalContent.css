@@ -1,12 +1,4 @@
-.Portfolio_ProjectModalContent .ProjectModalContent_ModalLink {
-  width: 80%;
-}
-
 @media (min-width: 992px) {
-  .Portfolio_ProjectModalContent .ProjectModalContent_ModalLink {
-    width: 50%;
-  }
-
   .Portfolio_ProjectModalContent .ProjectModalContent_Desc {
     font-size: 1.2rem;
   }

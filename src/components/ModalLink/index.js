@@ -1,21 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Button } from '../';
+import { TextButton } from '../';
 
-import './ModalLink.css';
-
-function ModalLink({ pageLink, repoLink }) {
+function ModalLink({ pageLink, repoLink, className }) {
+  const ownClassName = 'd-flex justify-content-around';
   return (
-    <ul className="Portfolio_ModalLink row mx-0">
-      <li className="col-md-6 mb-3 mb-md-0">
+    <ul className={className ? `${ownClassName} ${className}` : ownClassName}>
+      <li>
         <a href={pageLink} target="_blank" className="ModalLink_Link">
-          <Button buttonName="Project Page" />
+          <TextButton text="Project Page" />
         </a>
       </li>
-      <li className="col-md-6">
+      <li>
         <a href={repoLink} target="_blank" className="ModalLink_Link">
-          <Button buttonName="Project Repo" />
+          <TextButton text="Project Repo" />
         </a>
       </li>
     </ul>

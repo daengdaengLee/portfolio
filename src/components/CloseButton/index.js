@@ -1,12 +1,14 @@
 import React from 'react';
 
+import { Button } from '../';
+
 import './CloseButton.css';
 
-function CloseButton() {
+function CloseButton({ ...remainProps }) {
   return (
-    <div className="Portfolio_CloseButton">
+    <Button className="Portfolio_CloseButton d-inline-flex justify-content-center align-items-center" {...remainProps}>
       &times;
-    </div>
+    </Button>
   );
 }
 
