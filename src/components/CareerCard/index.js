@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { Card, Image } from '../';
+import Card from '../Card';
+import Image from '../Image';
 
 import './CareerCard.css';
 

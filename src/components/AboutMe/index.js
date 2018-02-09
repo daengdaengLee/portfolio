@@ -1,6 +1,8 @@
 import React from 'react';
 
-import { Card, Image, AboutMeText } from '../';
+import Card from '../Card';
+import Image from '../Image';
+import AboutMeText from '../AboutMeText';
 
 function AboutMe() {
   return <Card

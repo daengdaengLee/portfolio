@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Image } from '../';
+import Image from '../Image';
 
 import './HeaderAvatar.css';
 

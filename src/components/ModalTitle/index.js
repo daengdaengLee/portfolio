@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Title, CloseButton } from '../';
+import Title from '../Title';
+import CloseButton from '../CloseButton';
 
 import './ModalTitle.css';
 
