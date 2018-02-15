@@ -14,25 +14,21 @@ function ProjectModalContent({ imgURL, altText, title, desc, pageLink, repoLink,
       <div className="mb-3 mb-md-5">
         <ModalTitle content={title} onRequestClose={onRequestClose} />
       </div>
-      <div className="row mx-0">
-        <div className="col-md-6 mb-3 mb-md-0">
-          <Thumbnail
-            imgURL={imgURL}
-            altText={altText}
-          />
-        </div>
-        <div className="col-md-6 py-3">
-          <ModalLink
-            pageLink={pageLink}
-            repoLink={repoLink}
-            className="mb-3 mb-3 mb-md-5"
-          />
-          <p className="ProjectModalContent_Desc">
-            {desc}
-          </p>
-        </div>
+      <ModalLink
+        pageLink={pageLink}
+        repoLink={repoLink}
+        className="mb-3 mb-md-5"
+      />
+      <div className="mb-3 mb-md-5">
+        <Thumbnail
+          imgURL={imgURL}
+          altText={altText}
+        />
       </div>
-      <div className="d-flex justify-content-end mt-3 mt-md-5">
+      <p className="ProjectModalContent_Desc">
+        {desc}
+      </p>
+      <div className="d-flex justify-content-center mt-3 mt-md-5">
         <TextButton text="Close" className="w-25" onClick={onRequestClose} />
       </div>
     </section>
