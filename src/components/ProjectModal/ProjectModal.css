@@ -23,3 +23,9 @@
   outline: 0;
   padding: 20px;
 }
+
+@media (min-width: 992px) {
+  .Portfolio_ProjectModal_Content {
+    width: 40%;
+  }
+}
