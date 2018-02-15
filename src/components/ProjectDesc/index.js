@@ -1,7 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { ProjectTitle, ProjectSynopsis, ProjectLink } from '../';
+import ProjectTitle from '../ProjectTitle';
+import ProjectSynopsis from '../ProjectSynopsis';
+import ProjectLink from '../ProjectLink';
 
 function ProjectDesc({ title, desc, pageLink, repoLink }) {
   return (

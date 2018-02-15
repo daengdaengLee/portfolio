@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-import { TextButton } from '../';
+import TextButton from '../TextButton';
 
 function MenuButton({ menuName }) {
   return (

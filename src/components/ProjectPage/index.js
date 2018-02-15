@@ -1,6 +1,8 @@
 import React from 'react';
 
-import { ProjectCard, Title } from '../';
+import ProjectCard from '../ProjectCard';
+import Title from '../Title';
+
 import projectInfo from './projectInfo';
 
 import './ProjectPage.css';

@@ -1,7 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-import { Header, ProjectPage, AboutPage, Footer } from '../';
+import Header from '../Header';
+import ProjectPage from '../ProjectPage';
+import AboutPage from '../AboutPage';
+import Footer from '../Footer';
 
 function App() {
   return (

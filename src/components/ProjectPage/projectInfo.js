@@ -26,6 +26,15 @@ const projectInfo = [
     pageLink: 'https://daengdaenglee.github.io/movie_app_react/',
     repoLink: 'https://github.com/daengdaengLee/movie_app_react',
   },
+  {
+    id: 4,
+    imgURL: 'https://user-images.githubusercontent.com/30795415/36240931-999367a0-1256-11e8-8d4f-23de8c6fbf4f.jpg',
+    altText: 'to do manager app thumbnail image',
+    title: 'To Do Manager',
+    desc: 'React Native 기반 할 일 관리 앱입니다. 제작 과정에서 Expo XDE 를 개발 도구로 사용했습니다. 데모 앱을 실행하기 위해서는 Expo Client 앱을 설치해야 합니다. Expo Client 앱으로 데모 페이지 링크에 있는 QR 코드를 스캔해 주세요. Atomic Design 을 적용하여 컴포넌트의 재사용성을 높이고 앱이 다른 플랫폼으로 확장하기 쉽도록 설계했습니다.',
+    pageLink: 'https://expo.io/@daengdaenglee/to-do-manager',
+    repoLink: 'https://github.com/daengdaengLee/to-do-manager',
+  },
 ];
 
 export default projectInfo;

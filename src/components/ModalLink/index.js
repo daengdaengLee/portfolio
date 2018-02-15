@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { TextButton } from '../';
+import TextButton from '../TextButton';
 
 function ModalLink({ pageLink, repoLink, className }) {
   const ownClassName = 'd-flex justify-content-around';

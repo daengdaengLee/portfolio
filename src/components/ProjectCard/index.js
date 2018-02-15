@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import { ProjectDesc, Thumbnail, ProjectModal } from '../';
+import ProjectDesc from '../ProjectDesc';
+import Thumbnail from '../Thumbnail';
+import ProjectModal from '../ProjectModal';
 
 import './ProjectCard.css';
 

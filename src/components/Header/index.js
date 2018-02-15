@@ -1,6 +1,9 @@
 import React from 'react';
 
-import { HeaderAvatar, ContactList, MenuBar, PageTitle } from '../';
+import HeaderAvatar from '../HeaderAvatar';
+import ContactList from '../ContactList';
+import MenuBar from '../MenuBar';
+import PageTitle from '../PageTitle';
 
 function Header() {
   return (

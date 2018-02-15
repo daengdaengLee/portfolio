@@ -1,7 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Thumbnail, ModalTitle, ModalLink, TextButton } from '../';
+import Thumbnail from '../Thumbnail';
+import ModalTitle from '../ModalTitle';
+import ModalLink from '../ModalLink';
+import TextButton from '../TextButton';
 
 import './ProjectModalContent.css';
 

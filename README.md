@@ -57,6 +57,9 @@
   - [Git](https://git-scm.com/)
   - [Github](https://github.com/)
 
+- **네이티브 앱 기술**
+  - [React Native](https://facebook.github.io/react-native/)
+
 - **공부하고 있어요!**
   - [AWS](https://aws.amazon.com/)
   - [Docker](https://www.docker.com/)
@@ -105,6 +108,21 @@ JavaScript 의 `setInterval` 메소드와 `clearInterval` 메소드를 이용해
 React 를 이용해 화면을 구성했습니다.
 
 YTS torrents 에서 제공하는 Web API 를 통해 영화 차트 정보를 가져옵니다.
+
+### 4. 할 일 관리 앱
+
+![할 일 관리 앱](https://user-images.githubusercontent.com/30795415/36240931-999367a0-1256-11e8-8d4f-23de8c6fbf4f.jpg)
+
+- [Demo Page](https://expo.io/@daengdaenglee/to-do-manager)
+- [Repository](https://github.com/daengdaengLee/to-do-manager)
+
+React Native 기반 할 일 관리 앱입니다.
+
+제작 과정에서 Expo XDE 를 개발 도구로 사용했습니다.  
+데모 앱을 실행하기 위해서는 [Expo Client](https://expo.io/tools#client) 를 설치해야 합니다.  
+Expo Client 앱으로 데모 페이지 링크에 있는 QR 코드를 스캔해 주세요.
+
+Atomic Design 을 적용하여 컴포넌트의 재사용성을 높이고 앱이 다른 플랫폼으로 확장하기 쉽도록 설계했습니다.
 
 ## 3. 재잘재잘 (Off The Record)
 
