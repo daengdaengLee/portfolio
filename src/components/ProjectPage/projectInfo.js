@@ -35,6 +35,15 @@ const projectInfo = [
     pageLink: 'https://expo.io/@daengdaenglee/to-do-manager',
     repoLink: 'https://github.com/daengdaengLee/to-do-manager',
   },
+  {
+    id: 5,
+    imgURL: 'https://user-images.githubusercontent.com/30795415/36338425-19f3a01c-13f2-11e8-94b6-c0fa79d9cc1c.jpg',
+    altText: 'web tic tac toe thumbnail image',
+    title: 'Web Tic Tac Toe',
+    desc: 'React 기반 web Tic Tac Toe 게임입니다. Redux 를 이용해 상태 관리를 하고 있습니다. React 컴포넌트와 연결하기 위해 react-redux 모듈을 사용했습니다. Redux ducks 구조를 따라 개발했습니다. 특정 액션에 반응하는 미들웨어를 작성하기 위해 redux-saga 모듈을 사용했습니다. Atomic Design 을 반영하여 개발했습니다.',
+    pageLink: 'https://daengdaenglee.github.io/web-tic-tac-toe/',
+    repoLink: 'https://github.com/daengdaengLee/web-tic-tac-toe',
+  },
 ];
 
 export default projectInfo;

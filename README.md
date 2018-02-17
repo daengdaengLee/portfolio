@@ -67,6 +67,13 @@
 
 ## 2. 뭘 만들었을까요?
 
+0. [포트폴리오 페이지](#0-포트폴리오-페이지)
+1. [웹 계산기](#1-웹-계산기)
+2. [웹 토마토 시계](#2-웹-토마토-시계)
+3. [영화 차트 앱](#3-영화-차트-앱)
+4. [할 일 관리 앱](#4-할-일-관리-앱)
+5. [웹 Tic Tac Toe 게임](#5-웹-tic-tac-toe-게임)
+
 ### 0. 포트폴리오 페이지
 
 ![포트폴리오 페이지](https://user-images.githubusercontent.com/30795415/35925295-b6dedc5c-0c68-11e8-9331-34aec737bad6.jpg)
@@ -123,6 +130,19 @@ React Native 기반 할 일 관리 앱입니다.
 Expo Client 앱으로 데모 페이지 링크에 있는 QR 코드를 스캔해 주세요.
 
 Atomic Design 을 적용하여 컴포넌트의 재사용성을 높이고 앱이 다른 플랫폼으로 확장하기 쉽도록 설계했습니다.
+
+### 5. 웹 Tic Tac Toe 게임
+
+![웹 Tic Tac Toe 게임](https://user-images.githubusercontent.com/30795415/36338425-19f3a01c-13f2-11e8-94b6-c0fa79d9cc1c.jpg)
+
+- [Demo Page](https://daengdaenglee.github.io/web-tic-tac-toe/)
+- [Repository](https://github.com/daengdaengLee/web-tic-tac-toe)
+
+React 기반 web Tic Tac Toe 게임입니다.
+
+Redux 를 이용해 상태 관리를 하고 있습니다. React 컴포넌트와 연결하기 위해 react-redux 모듈을 사용했습니다. Redux ducks 구조를 따라 개발했습니다. 특정 액션에 반응하는 미들웨어를 작성하기 위해 redux-saga 모듈을 사용했습니다.
+
+Atomic Design 을 반영하여 개발했습니다.
 
 ## 3. 재잘재잘 (Off The Record)
 
